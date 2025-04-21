@@ -1,0 +1,118 @@
+estado,cidade/UF,loja,lat,long
+AL,Maceió/AL,Hiper Maceió JatiúcaMangabeiras,-9.64959,-35.71739
+AM,Manaus/AM,Hipermercado Manaus AdrianópolisAdrianopolis,-3.10513,-60.01123
+,,Hipermercado Manaus ShoppingChapada,-3.09326,-60.02191
+,,Hipermercado Ponta NegraDom Pedro,-3.09195,-60.0498
+BA,Itabuna/BA,Big Bompreço ItabunaGoes Calmon,-14.7979,-39.27272
+DF,Brasília/DF,Carrefour Bairro Asa Norte IIAsa Norte,-15.77441,-47.88754
+,,Carrefour Bairro Bom MotivoLago Sul,-15.84242,-47.87619
+,,Hiper Águas ClarasÁguas Claras,-15.83163,-48.03967
+,,Hipermercado Brasilia Asa NorteAsa Norte,-15.72217,-47.89789
+,,Hipermercado Brasilia SulZona Industrial (Guará),-15.82938,-47.95478
+,Taguatinga/DF,Hipermercado Brasilia TaguatingaAguas Claras,-15.82804,-48.04138
+ES,Vila Velha/ES,Hipermercado Vila Velha ShoppingDivino Espirito Santo,-20.34885,-40.29805
+GO,Anapolis/GO,Hipermercado Goiânia AnápolisCidade Jardim,-16.32138,-48.94862
+,Goiania/GO,Hipermercado Goiânia SudoesteVila Bela,-16.70884,-49.29722
+,,Hipermercado Goiânia SulJd Goias,-16.70961,-49.23282
+MG,Belo Horizonte/MG,Hipermercado BH AméricaSanta Efigênia,-19.91368,-43.92017
+,,Hipermercado BH ShoppingBelvedere,-19.9735,-43.94444
+,,Hipermercado PampulhaEngenho Nogueira,-19.87385,-43.97805
+,Contagem/MG,Hipermercado ContagemRiacho,-19.9548,-44.06368
+,Juiz de Fora/MG,Hipermercado Juiz de ForaGraminha,-21.78397,-43.33813
+,Uberlandia/MG,Hipermercado UberlândiaSta Monica,-18.91012,-48.25816
+MS,Campo Grande/MS,Hipermercado Campo GrandeSanta Fe,-20.45765,-54.58963
+PB,Campina Grande/PB,Hiper Campina GrandeS José,-7.22202,-35.88584
+,João Pessoa/PB,Hipermercado JP Cidade dos BancáriosJardim Sao Paulo,-7.14594,-34.84909
+PE,Jaboatão dos Guararapes/PE,Hiper JaboatãoPiedade,-8.14956,-34.91658
+,Petrolina/PE,Hiper Shopping PetrolinaCentro,-9.38299,-40.4901
+,Recife/PE,Hiper Avenida RecifeAreias,-8.09688,-34.9286
+,,Hiper Shopping TacarunaSanto Amaro,-8.0373,-34.87205
+,,Hipermercado Domingos FerreiraBoa Viagem,-8.09017,-34.90133
+,,Hipermercado RecifeTorre,-8.03921,-34.90987
+PR,Curitiba/PR,Hiper CabralCabral,-25.40208,-49.24868
+,,Hiper PortãoPortao,-25.4634,-49.29712
+,,Hipermercado ChampagnatMossunguê,-25.43712,-49.31851
+,,Hipermercado ParolinRebouças,-25.45489,-49.25878
+,Londrina/PR,Hipermercado LondrinaCatuai,-23.34027,-51.18651
+,Pinhais/PR,Hipermercado PinhaisVila Maria Antonieta,-25.43175,-49.16498
+RJ,Belford Roxo/RJ,Hipermercado Belford RoxoCentro,-22.77242,-43.39604
+,Campos dos Goytacazes/RJ,Hiper Campos de GoytacazesQueimados,-21.76534,-41.34352
+,Duque de Caxias/RJ,Hipermercado Duque de Caxias BrigadeiroJardim Vinte e Cinco de Agosto,-22.79203,-43.30081
+,,Hipermercado Duque de CaxiasJardim Gramacho,-22.76279,-43.28813
+,Macaé/RJ,Hiper MacaéGranja dos Cavaleiros,-22.3843,-41.80788
+,Rio de Janeiro/RJ,Hipermercado BarraBarra da Tijuca,-22.98773,-43.36071
+,,Hipermercado Campo GrandeCampo Grande,-20.44122,-54.58326
+,,Hipermercado Norte ShoppingCachambi,-22.88484,-43.28464
+,,Hipermercado SulacapJd Sulacap,-22.88461,-43.40483
+,São Gonçalo/RJ,Hipermercado AlcântaraAlcantara,-22.81845,-43.0076
+,,Hipermercado ManilhaNeves,-22.85492,-43.10051
+RN,Mossoró/RN,BIG MossoróDoze Anos,-5.1844,-37.35065
+,Natal/RN,Hipermercado Natal Zona NortePotengi,-5.75829,-35.24792
+,,Hipermercado NatalLagoa Nova,-5.82609,-35.21258
+RS,Canoas/RS,Hipermercado CanoasMathias Velho 07,-29.90567,-51.18706
+,Caxias do Sul/RS,Hipermercado CaxiasCidade Nova,-29.17665,-51.21822
+,Gravataí/RS,Hipermercado GravataíCohab C - Centro,-29.9361,-50.99679
+,Novo Hamburgo/RS,Carrefour Novo HamburgoCentro,-29.68246,-51.13222
+,Pelotas/RS,BIG PelotasAreal,-31.76344,-52.32847
+,Porto Alegre/RS,Big CristalCristal,-30.08171,-51.24535
+,,Hipermercado PartenonPartenon,-30.05709,-51.16583
+,,Hipermercado Passos D'AreiaPasso D'Areia,-30.01094,-51.17132
+,Santa Maria/RS,Carrefour Nossa Sra de LourdesN S De Lourdes,-29.69715,-53.79743
+,,Hipermercado Santa MariaCentro,-29.67947,-53.80657
+,Viamão/RS,BIG ViamãoCecília,-30.07905,-51.10104
+SC,Balneário Camboriú/SC,Hiper Balneário CamboriuCentro,-27.00295,-48.62218
+,Florianópolis/SC,Hiper Florianópolis ShoppingSanta Monica,-27.58926,-48.51513
+SP,Barueri/SP,Hiper Barueri TamboréTamboré,-23.50283,-46.83558
+,,Hipermercado TamboréCentro Empresarial Tamboré,-23.50315,-46.83511
+,Campinas/SP,Carrefour Bairro Campinas CambuiCambui,-22.89385,-47.0582
+,,Hipermercado Campinas Dom PedroJd Nilopolis,-22.84634,-47.02568
+,,Hipermercado Campinas IguatemiVila Brandina,-22.89096,-47.02308
+,,Hipermercado Campinas Shopping OutletJardim do Lago,-22.93184,-47.07917
+,,Hipermercado Campinas ValinhosJardim Von Zuben,-22.95214,-47.01448
+,,Hipermercado Shopping Dom PedroJardim Santa Genebra,-22.84984,-47.06217
+,Caçapava/SP,Carrefour Bairro CaçapavaCentro,-23.10352,-45.70926
+,Diadema/SP,Hipermercado DiademaCentro,-23.69075,-46.62349
+,Guarujá/SP,Hipermercado GuarujáJd Belmar,-23.98031,-46.23148
+,Guarulhos/SP,Hipermercado Guarulhos DutraMacedo,-23.46433,-46.52079
+,,Hipermercado GuarulhosVila Rio de Janeiro,-23.43934,-46.54139
+,Indaiatuba/SP,Carrefour Bairro IndaiatubaCidade Nova,-23.08029,-47.21039
+,Itu/SP,Carrefour Bairro ItuLiberdade,-23.25224,-47.2995
+,Jundiai/SP,Hipermercado JundiaiVila Vioto,-23.18283,-46.90793
+,Osasco/SP,Hiper OsascoVila Yara,-23.53699,-46.76844
+,,Hipermercado OsascoVila Yara,-23.53675,-46.76887
+,Piracicaba/SP,Hipermercado PiracicabaTerras de Piracicaba,-22.66823,-47.66848
+,Praia Grande/SP,Carrefour Bairro Central Praia GrandeVila Guilhermina,-24.01306,-46.41808
+,Presidente Prudente/SP,Hipermercado Presidente PrudenteJd Das Rosas,-22.10957,-51.40939
+,Ribeirão Preto/SP,Carrefour Bairro Ribeirão PretoCentro,-21.18241,-47.81018
+,,Hipermercado Ribeirão Preto NorteIpiranga,-21.16069,-47.81497
+,,Hipermercado Ribeirão PretoJd California,-21.20951,-47.81675
+,Salto/SP,Carrefour Bairro SaltoVila Nova,-23.20035,-47.2893
+,Santana de Parnaíba/SP,Carrefour Bairro AlphavilleAlphaville,-23.46916,-46.87131
+,Santo André/SP,Hipermercado Santo André OratórioJardim do Carmo,-23.64591,-46.5267
+,,Hipermercado Santo André ShoppingParaiso,-23.66611,-46.53391
+,,Hipermercado Santo AndréHumaita,-23.65878,-46.50996
+,Santos/SP,Hipermercado Santos PraiamarAparecida,-23.97825,-46.30831
+,,Hipermercado SantosBoqueirao,-23.96835,-46.32446
+,São Bernardo do Campo/SP,Carrefour Bairro São BernardoCentro,-23.71193,-46.54239
+,,Hipermercado DemarchiDemarchi,-23.72486,-46.55198
+,,Hipermercado São Bernado do CampoCentro,-23.7261,-46.55198
+,,Hipermercado São Bernardo PaulicéiaTaboao,-23.65545,-46.59521
+,São Caetano do Sul/SP,Hipermercado São Caetano do SulFundação,-23.6087,-46.56537
+,São Carlos/SP,Carrefour Bairro São Carlos - Sta FelíciaSanta Felicia,-21.99732,-47.91609
+,São Jose Rio Preto/SP,Hipermercado Rio Preto ShoppingJd Fernandes,-20.83233,-49.39859
+,,Hipermercado São José Rio PretoCristo Rei,-20.832,-49.35565
+,São José dos Campos/SP,Hipermercado São José Dos CamposSerimbura,-23.22279,-45.90544
+,São Paulo/SP,Carrefour Bairro MorumbiJardim Londrina,-23.61172,-46.74075
+,,Hipermercado Analia FrancoVila Regente Feijó,-23.56034,-46.56021
+,,Hipermercado AricanduvaJardim Aricanduva,-23.55948,-46.51634
+,,Hipermercado ButantãButantã,-23.56627,-46.69598
+,,Hipermercado Cambuci LionCambuci,-23.56334,-46.6139
+,,Hipermercado Casa VerdeCasa Verde,-23.51323,-46.6549
+,,Hipermercado Center NorteVl Guilherme,-23.51383,-46.6199
+,,Hipermercado Giovani GronchiVila Andrade,-23.64206,-46.73486
+,,Hipermercado ImigrantesBosque da Saúde,-23.61791,-46.62598
+,,Hipermercado InterlagosCampo Grande,-23.67753,-46.67525
+,,Hipermercado LimãoLimao,-23.51228,-46.67499
+,,Hipermercado PamplonaJd Pauilsta,-23.5701,-46.66136
+,,Hipermercado PinheirosVila Gomes,-23.62417,-46.71079
+,,Hipermercado TietêVila Guilherme,-23.52158,-46.59901

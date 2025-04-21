@@ -1,0 +1,97 @@
+data,produto,preco,cidade/UF,UF,regiao,loja,bairro,lat,long,regiao_ordem
+2025-04-18,Kani Congelado Frescatto 200g,11.39,Anapolis/GO,GO,Centro-Oeste,Hipermercado Goiânia AnápolisCidade Jardim,Cidade Jardim,-16.32138,-48.94862,Centro-Oeste - Anapolis/GO
+2025-04-18,Kani Congelado Frescatto 200g,12.59,Brasília/DF,DF,Centro-Oeste,Hipermercado Brasilia SulZona Industrial (Guará),Zona Industrial (Guará),-15.82938,-47.95478,Centro-Oeste - Brasília/DF
+2025-04-18,Kani Congelado Costa Sul 200g,14.25,Campo Grande/MS,MS,Centro-Oeste,Hipermercado Campo GrandeSanta Fe,Santa Fe,-20.45765,-54.58963,Centro-Oeste - Campo Grande/MS
+2025-04-18,Kani Congelado Frescatto 200g,12.45,Campo Grande/MS,MS,Centro-Oeste,Hipermercado Campo GrandeSanta Fe,Santa Fe,-20.45765,-54.58963,Centro-Oeste - Campo Grande/MS
+2025-04-18,Kani Congelado Frescatto 200g,11.39,Goiania/GO,GO,Centro-Oeste,Hipermercado Goiânia SulJd Goias,Jd Goias,-16.70961,-49.23282,Centro-Oeste - Goiania/GO
+2025-04-18,Kani Congelado Frescatto 200g,12.19,Taguatinga/DF,DF,Centro-Oeste,Hipermercado Brasilia TaguatingaAguas Claras,Aguas Claras,-15.82804,-48.04138,Centro-Oeste - Taguatinga/DF
+2025-04-18,Kani Congelado Frescatto 200g,12.99,Campina Grande/PB,PB,Nordeste,Hiper Campina GrandeS José,S José,-7.22202,-35.88584,Nordeste - Campina Grande/PB
+2025-04-18,Kani Congelado Frescatto 200g,12.99,Itabuna/BA,BA,Nordeste,Big Bompreço ItabunaGoes Calmon,Goes Calmon,-14.7979,-39.27272,Nordeste - Itabuna/BA
+2025-04-18,Kani Congelado Frescatto 200g,12.99,Jaboatão dos Guararapes/PE,PE,Nordeste,Hiper JaboatãoPiedade,Piedade,-8.14956,-34.91658,Nordeste - Jaboatão dos Guararapes/PE
+2025-04-18,Kani Congelado Frescatto 200g,12.99,João Pessoa/PB,PB,Nordeste,Hipermercado JP Cidade dos BancáriosJardim Sao Paulo,Jardim Sao Paulo,-7.14594,-34.84909,Nordeste - João Pessoa/PB
+2025-04-18,Kani Congelado Frescatto 200g,13.39,Maceió/AL,AL,Nordeste,Hiper Maceió JatiúcaMangabeiras,Mangabeiras,-9.64959,-35.71739,Nordeste - Maceió/AL
+2025-04-18,Kani Congelado Frescatto 200g,12.99,Mossoró/RN,RN,Nordeste,BIG MossoróDoze Anos,Doze Anos,-5.1844,-37.35065,Nordeste - Mossoró/RN
+2025-04-18,Kani Congelado Frescatto 200g,12.99,Natal/RN,RN,Nordeste,Hipermercado NatalLagoa Nova,Lagoa Nova,-5.82609,-35.21258,Nordeste - Natal/RN
+2025-04-18,Kani Congelado Frescatto 200g,12.99,Petrolina/PE,PE,Nordeste,Hiper Shopping PetrolinaCentro,Centro,-9.38299,-40.4901,Nordeste - Petrolina/PE
+2025-04-18,Kani Congelado Frescatto 200g,12.99,Recife/PE,PE,Nordeste,Hipermercado Domingos FerreiraBoa Viagem,Boa Viagem,-8.09017,-34.90133,Nordeste - Recife/PE
+2025-04-18,Kani Congelado Costa Sul 200g,10.19,Barueri/SP,SP,Sudeste,Hipermercado TamboréCentro Empresarial Tamboré,Centro Empresarial Tamboré,-23.50315,-46.83511,Sudeste - Barueri/SP
+2025-04-18,Kani Congelado Damm 250g,22.69,Barueri/SP,SP,Sudeste,Hipermercado TamboréCentro Empresarial Tamboré,Centro Empresarial Tamboré,-23.50315,-46.83511,Sudeste - Barueri/SP
+2025-04-18,Kani Congelado Costa Sul 200g,12.99,Belo Horizonte/MG,MG,Sudeste,Hipermercado BH ShoppingBelvedere,Belvedere,-19.9735,-43.94444,Sudeste - Belo Horizonte/MG
+2025-04-18,Kani Congelado Frescatto 200g,15.99,Belo Horizonte/MG,MG,Sudeste,Hipermercado BH ShoppingBelvedere,Belvedere,-19.9735,-43.94444,Sudeste - Belo Horizonte/MG
+2025-04-18,Kani Congelado Costa Sul 200g,12.99,Belo Horizonte/MG,MG,Sudeste,Hipermercado BH ShoppingBelvedere,Belvedere,-19.9735,-43.94444,Sudeste - Belo Horizonte/MG
+2025-04-18,Kani Congelado Frescatto 200g,15.99,Belo Horizonte/MG,MG,Sudeste,Hipermercado BH ShoppingBelvedere,Belvedere,-19.9735,-43.94444,Sudeste - Belo Horizonte/MG
+2025-04-18,Kani Congelado Costa Sul 200g,10.19,Campinas/SP,SP,Sudeste,Hipermercado Campinas ValinhosJardim Von Zuben,Jardim Von Zuben,-22.95214,-47.01448,Sudeste - Campinas/SP
+2025-04-18,Kani Congelado Costa Sul 200g,11.89,Campos dos Goytacazes/RJ,RJ,Sudeste,Hiper Campos de GoytacazesQueimados,Queimados,-21.76534,-41.34352,Sudeste - Campos dos Goytacazes/RJ
+2025-04-18,Kani Congelado Frescatto 200g,15.99,Campos dos Goytacazes/RJ,RJ,Sudeste,Hiper Campos de GoytacazesQueimados,Queimados,-21.76534,-41.34352,Sudeste - Campos dos Goytacazes/RJ
+2025-04-18,Kani Congelado Costa Sul 200g,14.79,Caçapava/SP,SP,Sudeste,Carrefour Bairro CaçapavaCentro,Centro,-23.10352,-45.70926,Sudeste - Caçapava/SP
+2025-04-18,Hossomaki Philadelphia Kani Kama 160 g,22.59,Caçapava/SP,SP,Sudeste,Carrefour Bairro CaçapavaCentro,Centro,-23.10352,-45.70926,Sudeste - Caçapava/SP
+2025-04-18,Kani Congelado Costa Sul 200g,13.39,Contagem/MG,MG,Sudeste,Hipermercado ContagemRiacho,Riacho,-19.9548,-44.06368,Sudeste - Contagem/MG
+2025-04-18,Kani Congelado Frescatto 200g,15.99,Contagem/MG,MG,Sudeste,Hipermercado ContagemRiacho,Riacho,-19.9548,-44.06368,Sudeste - Contagem/MG
+2025-04-18,Kani Congelado Costa Sul 200g,15.99,Duque de Caxias/RJ,RJ,Sudeste,Hipermercado Duque de Caxias BrigadeiroJardim Vinte e Cinco de Agosto,Jardim Vinte e Cinco de Agosto,-22.79203,-43.30081,Sudeste - Duque de Caxias/RJ
+2025-04-18,Kani Congelado Frescatto 200g,15.99,Duque de Caxias/RJ,RJ,Sudeste,Hipermercado Duque de Caxias BrigadeiroJardim Vinte e Cinco de Agosto,Jardim Vinte e Cinco de Agosto,-22.79203,-43.30081,Sudeste - Duque de Caxias/RJ
+2025-04-18,Kani Congelado Costa Sul 200g,9.89,Guarujá/SP,SP,Sudeste,Hipermercado GuarujáJd Belmar,Jd Belmar,-23.98031,-46.23148,Sudeste - Guarujá/SP
+2025-04-18,Kani Congelado Costa Sul 200g,9.89,Guarulhos/SP,SP,Sudeste,Hipermercado GuarulhosVila Rio de Janeiro,Vila Rio de Janeiro,-23.43934,-46.54139,Sudeste - Guarulhos/SP
+2025-04-18,Kani Congelado Damm 250g,10.79,Guarulhos/SP,SP,Sudeste,Hipermercado GuarulhosVila Rio de Janeiro,Vila Rio de Janeiro,-23.43934,-46.54139,Sudeste - Guarulhos/SP
+2025-04-18,Kani Congelado Costa Sul 200g,10.49,Indaiatuba/SP,SP,Sudeste,Carrefour Bairro IndaiatubaCidade Nova,Cidade Nova,-23.08029,-47.21039,Sudeste - Indaiatuba/SP
+2025-04-18,Kani Congelado Frescatto 200g,9.98,Indaiatuba/SP,SP,Sudeste,Carrefour Bairro IndaiatubaCidade Nova,Cidade Nova,-23.08029,-47.21039,Sudeste - Indaiatuba/SP
+2025-04-18,Kani Congelado Costa Sul 200g,14.79,Itu/SP,SP,Sudeste,Carrefour Bairro ItuLiberdade,Liberdade,-23.25224,-47.2995,Sudeste - Itu/SP
+2025-04-18,Kani Congelado Frescatto 200g,9.98,Itu/SP,SP,Sudeste,Carrefour Bairro ItuLiberdade,Liberdade,-23.25224,-47.2995,Sudeste - Itu/SP
+2025-04-18,Kani Congelado Costa Sul 200g,13.39,Juiz de Fora/MG,MG,Sudeste,Hipermercado Juiz de ForaGraminha,Graminha,-21.78397,-43.33813,Sudeste - Juiz de Fora/MG
+2025-04-18,Kani Congelado Frescatto 200g,15.99,Juiz de Fora/MG,MG,Sudeste,Hipermercado Juiz de ForaGraminha,Graminha,-21.78397,-43.33813,Sudeste - Juiz de Fora/MG
+2025-04-18,Kani Congelado Costa Sul 200g,10.19,Jundiai/SP,SP,Sudeste,Hipermercado JundiaiVila Vioto,Vila Vioto,-23.18283,-46.90793,Sudeste - Jundiai/SP
+2025-04-18,Kani Congelado Costa Sul 200g,11.89,Macaé/RJ,RJ,Sudeste,Hiper MacaéGranja dos Cavaleiros,Granja dos Cavaleiros,-22.3843,-41.80788,Sudeste - Macaé/RJ
+2025-04-18,Kani Congelado Frescatto 200g,15.99,Macaé/RJ,RJ,Sudeste,Hiper MacaéGranja dos Cavaleiros,Granja dos Cavaleiros,-22.3843,-41.80788,Sudeste - Macaé/RJ
+2025-04-18,Kani Congelado Costa Sul 200g,10.19,Osasco/SP,SP,Sudeste,Hipermercado OsascoVila Yara,Vila Yara,-23.53675,-46.76887,Sudeste - Osasco/SP
+2025-04-18,Kani Congelado Costa Sul 200g,10.09,Piracicaba/SP,SP,Sudeste,Hipermercado PiracicabaTerras de Piracicaba,Terras de Piracicaba,-22.66823,-47.66848,Sudeste - Piracicaba/SP
+2025-04-18,Kani Congelado Costa Sul 200g,10.49,Praia Grande/SP,SP,Sudeste,Carrefour Bairro Central Praia GrandeVila Guilhermina,Vila Guilhermina,-24.01306,-46.41808,Sudeste - Praia Grande/SP
+2025-04-18,Kani Congelado Costa Sul 200g,9.89,Presidente Prudente/SP,SP,Sudeste,Hipermercado Presidente PrudenteJd Das Rosas,Jd Das Rosas,-22.10957,-51.40939,Sudeste - Presidente Prudente/SP
+2025-04-18,Kani Congelado Costa Sul 200g,10.19,Ribeirão Preto/SP,SP,Sudeste,Hipermercado Ribeirão Preto NorteIpiranga,Ipiranga,-21.16069,-47.81497,Sudeste - Ribeirão Preto/SP
+2025-04-18,Kani Congelado Costa Sul 200g,16.49,Rio de Janeiro/RJ,RJ,Sudeste,Hipermercado BarraBarra da Tijuca,Barra da Tijuca,-22.98773,-43.36071,Sudeste - Rio de Janeiro/RJ
+2025-04-18,Kani Congelado Frescatto 200g,15.99,Rio de Janeiro/RJ,RJ,Sudeste,Hipermercado BarraBarra da Tijuca,Barra da Tijuca,-22.98773,-43.36071,Sudeste - Rio de Janeiro/RJ
+2025-04-18,Kani Congelado Costa Sul 200g,14.79,Salto/SP,SP,Sudeste,Carrefour Bairro SaltoVila Nova,Vila Nova,-23.20035,-47.2893,Sudeste - Salto/SP
+2025-04-18,Kani Congelado Frescatto 200g,9.98,Salto/SP,SP,Sudeste,Carrefour Bairro SaltoVila Nova,Vila Nova,-23.20035,-47.2893,Sudeste - Salto/SP
+2025-04-18,Kani Congelado Costa Sul 200g,14.79,Santana de Parnaíba/SP,SP,Sudeste,Carrefour Bairro AlphavilleAlphaville,Alphaville,-23.46916,-46.87131,Sudeste - Santana de Parnaíba/SP
+2025-04-18,Kani Congelado Damm 250g,11.19,Santana de Parnaíba/SP,SP,Sudeste,Carrefour Bairro AlphavilleAlphaville,Alphaville,-23.46916,-46.87131,Sudeste - Santana de Parnaíba/SP
+2025-04-19,Kani Congelado Costa Sul 200g,10.19,Sorocaba/Votorantim/SP,SP,Sudeste,Hipermercado Sorocaba NorteVila Carvalho,Vila Carvalho,,,Sudeste - Sorocaba/Votorantim/SP
+2025-04-18,Kani Congelado Costa Sul 200g,9.89,São Bernardo do Campo/SP,SP,Sudeste,Hipermercado São Bernado do CampoCentro,Centro,-23.7261,-46.55198,Sudeste - São Bernardo do Campo/SP
+2025-04-19,Kani Congelado Costa Sul 200g,10.19,São Caetano do Sul/SP,SP,Sudeste,Hipermercado São Caetano do SulFundação,Fundação,-23.6087,-46.56537,Sudeste - São Caetano do Sul/SP
+2025-04-19,Kani Congelado Frescatto 200g,10.29,São Caetano do Sul/SP,SP,Sudeste,Hipermercado São Caetano do SulFundação,Fundação,-23.6087,-46.56537,Sudeste - São Caetano do Sul/SP
+2025-04-19,Kani Congelado Costa Sul 200g,14.79,São Carlos/SP,SP,Sudeste,Carrefour Bairro São Carlos - Sta FelíciaSanta Felicia,Santa Felicia,-21.99732,-47.91609,Sudeste - São Carlos/SP
+2025-04-18,Kani Congelado Costa Sul 200g,16.49,São Gonçalo/RJ,RJ,Sudeste,Hipermercado AlcântaraAlcantara,Alcantara,-22.81845,-43.0076,Sudeste - São Gonçalo/RJ
+2025-04-18,Kani Congelado Frescatto 200g,15.99,São Gonçalo/RJ,RJ,Sudeste,Hipermercado AlcântaraAlcantara,Alcantara,-22.81845,-43.0076,Sudeste - São Gonçalo/RJ
+2025-04-19,Kani Congelado Costa Sul 200g,9.89,São Jose Rio Preto/SP,SP,Sudeste,Hipermercado Rio Preto ShoppingJd Fernandes,Jd Fernandes,-20.83233,-49.39859,Sudeste - São Jose Rio Preto/SP
+2025-04-19,Kani Congelado Frescatto 200g,9.98,São Jose Rio Preto/SP,SP,Sudeste,Hipermercado Rio Preto ShoppingJd Fernandes,Jd Fernandes,-20.83233,-49.39859,Sudeste - São Jose Rio Preto/SP
+2025-04-19,Kani Congelado Costa Sul 200g,10.19,São José dos Campos/SP,SP,Sudeste,Hipermercado São José Dos CamposSerimbura,Serimbura,-23.22279,-45.90544,Sudeste - São José dos Campos/SP
+2025-04-19,Hossomaki Philadelphia Kani Kama 160 g,27.49,São José dos Campos/SP,SP,Sudeste,Hipermercado São José Dos CamposSerimbura,Serimbura,-23.22279,-45.90544,Sudeste - São José dos Campos/SP
+2025-04-19,Kani Congelado Costa Sul 200g,14.79,São Paulo/SP,SP,Sudeste,Carrefour Bairro MorumbiJardim Londrina,Jardim Londrina,-23.61172,-46.74075,Sudeste - São Paulo/SP
+2025-04-19,Kani Congelado Costa Sul 200g,9.89,São Vicente/SP,SP,Sudeste,Hipermercado São VicenteJd Independencia,Jd Independencia,,,Sudeste - São Vicente/SP
+2025-04-19,Kani Congelado Costa Sul 200g,10.19,Taboão da Serra/SP,SP,Sudeste,Hipermercado TaboãoCentro,Centro,,,Sudeste - Taboão da Serra/SP
+2025-04-19,Kani Congelado Costa Sul 200g,10.49,Taubate/SP,SP,Sudeste,Carrefour Bairro Taubaté IICentro,Centro,,,Sudeste - Taubate/SP
+2025-04-18,Kani Congelado Costa Sul 200g,12.99,Uberlandia/MG,MG,Sudeste,Hipermercado UberlândiaSta Monica,Sta Monica,-18.91012,-48.25816,Sudeste - Uberlandia/MG
+2025-04-18,Kani Congelado Frescatto 200g,15.99,Uberlandia/MG,MG,Sudeste,Hipermercado UberlândiaSta Monica,Sta Monica,-18.91012,-48.25816,Sudeste - Uberlandia/MG
+2025-04-18,Kani Congelado Costa Sul 200g,13.39,Vila Velha/ES,ES,Sudeste,Hipermercado Vila Velha ShoppingDivino Espirito Santo,Divino Espirito Santo,-20.34885,-40.29805,Sudeste - Vila Velha/ES
+2025-04-18,Kani Congelado Frescatto 200g,15.99,Vila Velha/ES,ES,Sudeste,Hipermercado Vila Velha ShoppingDivino Espirito Santo,Divino Espirito Santo,-20.34885,-40.29805,Sudeste - Vila Velha/ES
+2025-04-19,Kani Congelado Costa Sul 200g,14.79,Vinhedo/SP,SP,Sudeste,Carrefour Bairro VinhedoVista Alegre,Vista Alegre,,,Sudeste - Vinhedo/SP
+2025-04-19,Kani Congelado Frescatto 200g,9.98,Vinhedo/SP,SP,Sudeste,Carrefour Bairro VinhedoVista Alegre,Vista Alegre,,,Sudeste - Vinhedo/SP
+2025-04-18,Kani Congelado Frescatto 200g,13.99,Balneário Camboriú/SC,SC,Sul,Hiper Balneário CamboriuCentro,Centro,-27.00295,-48.62218,Sul - Balneário Camboriú/SC
+2025-04-18,Kani Congelado Costa Sul 200g,14.15,Canoas/RS,RS,Sul,Hipermercado CanoasMathias Velho 07,Mathias Velho 07,-29.90567,-51.18706,Sul - Canoas/RS
+2025-04-18,Kani Congelado Frescatto 200g,8.99,Canoas/RS,RS,Sul,Hipermercado CanoasMathias Velho 07,Mathias Velho 07,-29.90567,-51.18706,Sul - Canoas/RS
+2025-04-18,Kani Congelado Costa Sul 200g,10.99,Caxias do Sul/RS,RS,Sul,Hipermercado CaxiasCidade Nova,Cidade Nova,-29.17665,-51.21822,Sul - Caxias do Sul/RS
+2025-04-18,Kani Congelado Frescatto 200g,8.99,Caxias do Sul/RS,RS,Sul,Hipermercado CaxiasCidade Nova,Cidade Nova,-29.17665,-51.21822,Sul - Caxias do Sul/RS
+2025-04-18,Kani Congelado Costa Sul 200g,13.89,Curitiba/PR,PR,Sul,Hipermercado ChampagnatMossunguê,Mossunguê,-25.43712,-49.31851,Sul - Curitiba/PR
+2025-04-18,Kani Congelado Frescatto 200g,11.09,Curitiba/PR,PR,Sul,Hipermercado ChampagnatMossunguê,Mossunguê,-25.43712,-49.31851,Sul - Curitiba/PR
+2025-04-18,Kani Congelado Frescatto 200g,13.99,Florianópolis/SC,SC,Sul,Hiper Florianópolis ShoppingSanta Monica,Santa Monica,-27.58926,-48.51513,Sul - Florianópolis/SC
+2025-04-18,Kani Congelado Costa Sul 200g,13.69,Gravataí/RS,RS,Sul,Hipermercado GravataíCohab C/Centro,Cohab C/Centro,,,Sul - Gravataí/RS
+2025-04-18,Kani Congelado Frescatto 200g,8.99,Gravataí/RS,RS,Sul,Hipermercado GravataíCohab C/Centro,Cohab C/Centro,,,Sul - Gravataí/RS
+2025-04-18,Kani Congelado Costa Sul 200g,13.89,Londrina/PR,PR,Sul,Hipermercado LondrinaCatuai,Catuai,-23.34027,-51.18651,Sul - Londrina/PR
+2025-04-18,Kani Congelado Costa Sul 200g,14.15,Novo Hamburgo/RS,RS,Sul,Carrefour Novo HamburgoCentro,Centro,-29.68246,-51.13222,Sul - Novo Hamburgo/RS
+2025-04-18,Kani Congelado Frescatto 200g,12.99,Novo Hamburgo/RS,RS,Sul,Carrefour Novo HamburgoCentro,Centro,-29.68246,-51.13222,Sul - Novo Hamburgo/RS
+2025-04-18,Kani Congelado Costa Sul 200g,14.15,Pelotas/RS,RS,Sul,BIG PelotasAreal,Areal,-31.76344,-52.32847,Sul - Pelotas/RS
+2025-04-18,Kani Congelado Frescatto 200g,9.89,Pelotas/RS,RS,Sul,BIG PelotasAreal,Areal,-31.76344,-52.32847,Sul - Pelotas/RS
+2025-04-18,Kani Congelado Costa Sul 200g,13.89,Pinhais/PR,PR,Sul,Hipermercado PinhaisVila Maria Antonieta,Vila Maria Antonieta,-25.43175,-49.16498,Sul - Pinhais/PR
+2025-04-18,Kani Congelado Costa Sul 200g,14.15,Porto Alegre/RS,RS,Sul,Hipermercado PartenonPartenon,Partenon,-30.05709,-51.16583,Sul - Porto Alegre/RS
+2025-04-18,Kani Congelado Frescatto 200g,9.29,Porto Alegre/RS,RS,Sul,Hipermercado PartenonPartenon,Partenon,-30.05709,-51.16583,Sul - Porto Alegre/RS
+2025-04-18,Kani Congelado Costa Sul 200g,10.99,Santa Maria/RS,RS,Sul,Hipermercado Santa MariaCentro,Centro,-29.67947,-53.80657,Sul - Santa Maria/RS
+2025-04-18,Kani Congelado Frescatto 200g,9.89,Santa Maria/RS,RS,Sul,Hipermercado Santa MariaCentro,Centro,-29.67947,-53.80657,Sul - Santa Maria/RS
+2025-04-18,Kani Congelado Costa Sul 200g,13.69,Viamão/RS,RS,Sul,BIG ViamãoCecília,Cecília,-30.07905,-51.10104,Sul - Viamão/RS
+2025-04-18,Kani Congelado Frescatto 200g,12.99,Viamão/RS,RS,Sul,BIG ViamãoCecília,Cecília,-30.07905,-51.10104,Sul - Viamão/RS

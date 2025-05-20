@@ -11,6 +11,8 @@ from plotly.subplots import make_subplots
 st.set_page_config(layout='wide', page_title="Painel dos Preços")
 st.title("Painel dos Preços")
 
+st.write('Boa Noite, Clarice')
+
            
 st.write("Escolha uma planilha: ")
 select_planilha = st.selectbox("Lista de Planilhas", ['precos_carrefour_kani_20250516_tratado.xlsx', 'precos_carrefour_empanado_20250516_tratado.xlsx'])

@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4aa454ea3f02c7c8aa2aa75a1677dd8f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4aa454ea3f02c7c8aa2aa75a1677dd8f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4aa454ea3f02c7c8aa2aa75a1677dd8f = L.map(
+                "map_4aa454ea3f02c7c8aa2aa75a1677dd8f",
+                {
+                    center: [-15.793889, -47.882778],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b25f394c4964a6df013d917ee50ca459 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b25f394c4964a6df013d917ee50ca459.addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+            var circle_marker_cd7d99da606ce7bc8f7e3a35c8910cc7 = L.circleMarker(
+                [-9.64959, -35.71739],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc4c29ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_f58726e9556d114e93fb1e2e76ba19c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40a844ed8e1a1d0502c123cfff20ca38 = $(`<div id="html_40a844ed8e1a1d0502c123cfff20ca38" style="width: 100.0%; height: 100.0%;"><b>Hiper Maceió JatiúcaMangabeiras</b><br>Preço: <b>R$13.39</b></div>`)[0];
+                popup_f58726e9556d114e93fb1e2e76ba19c9.setContent(html_40a844ed8e1a1d0502c123cfff20ca38);
+            
+        
+
+        circle_marker_cd7d99da606ce7bc8f7e3a35c8910cc7.bindPopup(popup_f58726e9556d114e93fb1e2e76ba19c9)
+        ;
+
+        
+    
+    
+            var circle_marker_d85d63e8bb036c0182d367a7c3ba5db8 = L.circleMarker(
+                [-14.7979, -39.27272],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd6931ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_ba05673365ff3b9ff0c2f863eb764d93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_260ad881528da1b8af820088bcbd1c38 = $(`<div id="html_260ad881528da1b8af820088bcbd1c38" style="width: 100.0%; height: 100.0%;"><b>Big Bompreço ItabunaGoes Calmon</b><br>Preço: <b>R$12.99</b></div>`)[0];
+                popup_ba05673365ff3b9ff0c2f863eb764d93.setContent(html_260ad881528da1b8af820088bcbd1c38);
+            
+        
+
+        circle_marker_d85d63e8bb036c0182d367a7c3ba5db8.bindPopup(popup_ba05673365ff3b9ff0c2f863eb764d93)
+        ;
+
+        
+    
+    
+            var circle_marker_24d36530af4847bc542e962ca6c0d498 = L.circleMarker(
+                [-15.82938, -47.95478],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd863aff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_1c6649fd1a4af30922b38add6c9f1cdc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a8eda9e23a5c354c106d260e5860998 = $(`<div id="html_1a8eda9e23a5c354c106d260e5860998" style="width: 100.0%; height: 100.0%;"><b>Hipermercado Brasilia SulZona Industrial (Guará)</b><br>Preço: <b>R$12.59</b></div>`)[0];
+                popup_1c6649fd1a4af30922b38add6c9f1cdc.setContent(html_1a8eda9e23a5c354c106d260e5860998);
+            
+        
+
+        circle_marker_24d36530af4847bc542e962ca6c0d498.bindPopup(popup_1c6649fd1a4af30922b38add6c9f1cdc)
+        ;
+
+        
+    
+    
+            var circle_marker_00bed24b8cff8aae8dda7810a0de6796 = L.circleMarker(
+                [-15.82804, -48.04138],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fe9a41ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_b2e9813df84924877dd6a7128c0da052 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65d0741e333562a8cfbe44bbd43b6188 = $(`<div id="html_65d0741e333562a8cfbe44bbd43b6188" style="width: 100.0%; height: 100.0%;"><b>Hipermercado Brasilia TaguatingaAguas Claras</b><br>Preço: <b>R$12.19</b></div>`)[0];
+                popup_b2e9813df84924877dd6a7128c0da052.setContent(html_65d0741e333562a8cfbe44bbd43b6188);
+            
+        
+
+        circle_marker_00bed24b8cff8aae8dda7810a0de6796.bindPopup(popup_b2e9813df84924877dd6a7128c0da052)
+        ;
+
+        
+    
+    
+            var circle_marker_b6b78cc95ae7cf4f9d144c051a3307e4 = L.circleMarker(
+                [-20.34885, -40.29805],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_3d21423d7afd9423679c7f9f6ea47fdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_828cce5560450834cd53bf549ee3993b = $(`<div id="html_828cce5560450834cd53bf549ee3993b" style="width: 100.0%; height: 100.0%;"><b>Hipermercado Vila Velha ShoppingDivino Espirito Santo</b><br>Preço: <b>R$15.99</b></div>`)[0];
+                popup_3d21423d7afd9423679c7f9f6ea47fdd.setContent(html_828cce5560450834cd53bf549ee3993b);
+            
+        
+
+        circle_marker_b6b78cc95ae7cf4f9d144c051a3307e4.bindPopup(popup_3d21423d7afd9423679c7f9f6ea47fdd)
+        ;
+
+        
+    
+    
+            var circle_marker_bfe3d2e659bcc6142e673bf7e4000bee = L.circleMarker(
+                [-16.32138, -48.94862],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#febc57ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_986c8253ee099d32bd9141ddc6b6739a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cf1518dcc19bcf61621b7059b5a0ab5 = $(`<div id="html_0cf1518dcc19bcf61621b7059b5a0ab5" style="width: 100.0%; height: 100.0%;"><b>Hipermercado Goiânia AnápolisCidade Jardim</b><br>Preço: <b>R$11.39</b></div>`)[0];
+                popup_986c8253ee099d32bd9141ddc6b6739a.setContent(html_0cf1518dcc19bcf61621b7059b5a0ab5);
+            
+        
+
+        circle_marker_bfe3d2e659bcc6142e673bf7e4000bee.bindPopup(popup_986c8253ee099d32bd9141ddc6b6739a)
+        ;
+
+        
+    
+    
+            var circle_marker_36b5fc9f6d1b10374a7c97166dd656e6 = L.circleMarker(
+                [-16.70961, -49.23282],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#febc57ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_bbcd9025c6873e269e292192ee4cbeef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_573c33179ade841616b15e572d27b9ed = $(`<div id="html_573c33179ade841616b15e572d27b9ed" style="width: 100.0%; height: 100.0%;"><b>Hipermercado Goiânia SulJd Goias</b><br>Preço: <b>R$11.39</b></div>`)[0];
+                popup_bbcd9025c6873e269e292192ee4cbeef.setContent(html_573c33179ade841616b15e572d27b9ed);
+            
+        
+
+        circle_marker_36b5fc9f6d1b10374a7c97166dd656e6.bindPopup(popup_bbcd9025c6873e269e292192ee4cbeef)
+        ;
+
+        
+    
+    
+            var circle_marker_6539b802dc2e23a1c7edf19e7ceb1494 = L.circleMarker(
+                [-19.9735, -43.94444],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_5bf92d3f9c63a782497464875ab6a0c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5cb6b6c918168e363eabb2c2def1de3 = $(`<div id="html_d5cb6b6c918168e363eabb2c2def1de3" style="width: 100.0%; height: 100.0%;"><b>Hipermercado BH ShoppingBelvedere</b><br>Preço: <b>R$15.99</b></div>`)[0];
+                popup_5bf92d3f9c63a782497464875ab6a0c5.setContent(html_d5cb6b6c918168e363eabb2c2def1de3);
+            
+        
+
+        circle_marker_6539b802dc2e23a1c7edf19e7ceb1494.bindPopup(popup_5bf92d3f9c63a782497464875ab6a0c5)
+        ;
+
+        
+    
+    
+            var circle_marker_a50fc360bb5972b12ec0e604a95d27c6 = L.circleMarker(
+                [-19.9735, -43.94444],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_79c29e30fd3bfcdac04c40bd7706f801 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_242f01f91ca65225c6fdcf3819c07c51 = $(`<div id="html_242f01f91ca65225c6fdcf3819c07c51" style="width: 100.0%; height: 100.0%;"><b>Hipermercado BH ShoppingBelvedere</b><br>Preço: <b>R$15.99</b></div>`)[0];
+                popup_79c29e30fd3bfcdac04c40bd7706f801.setContent(html_242f01f91ca65225c6fdcf3819c07c51);
+            
+        
+
+        circle_marker_a50fc360bb5972b12ec0e604a95d27c6.bindPopup(popup_79c29e30fd3bfcdac04c40bd7706f801)
+        ;
+
+        
+    
+    
+            var circle_marker_1da644ae50e006f7832317f64bc3e307 = L.circleMarker(
+                [-19.9548, -44.06368],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_3c9b90dc03515a5290996f5f64e83c5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d2d4ad1449c4ea4f47675a5c30e92f3 = $(`<div id="html_1d2d4ad1449c4ea4f47675a5c30e92f3" style="width: 100.0%; height: 100.0%;"><b>Hipermercado ContagemRiacho</b><br>Preço: <b>R$15.99</b></div>`)[0];
+                popup_3c9b90dc03515a5290996f5f64e83c5b.setContent(html_1d2d4ad1449c4ea4f47675a5c30e92f3);
+            
+        
+
+        circle_marker_1da644ae50e006f7832317f64bc3e307.bindPopup(popup_3c9b90dc03515a5290996f5f64e83c5b)
+        ;
+
+        
+    
+    
+            var circle_marker_445c955008e8f484b367dad7919bed91 = L.circleMarker(
+                [-21.78397, -43.33813],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_51779c64e838a47ac4a0cba94939d465 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abc62c9cd44d6e796901adf5a7679a8d = $(`<div id="html_abc62c9cd44d6e796901adf5a7679a8d" style="width: 100.0%; height: 100.0%;"><b>Hipermercado Juiz de ForaGraminha</b><br>Preço: <b>R$15.99</b></div>`)[0];
+                popup_51779c64e838a47ac4a0cba94939d465.setContent(html_abc62c9cd44d6e796901adf5a7679a8d);
+            
+        
+
+        circle_marker_445c955008e8f484b367dad7919bed91.bindPopup(popup_51779c64e838a47ac4a0cba94939d465)
+        ;
+
+        
+    
+    
+            var circle_marker_ae219e6783c0f2e5dabe48e483603023 = L.circleMarker(
+                [-18.91012, -48.25816],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_12caec34c4f1f8435165886c8cdb5880 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23226f8f5af62308c3520f8f3ee4495d = $(`<div id="html_23226f8f5af62308c3520f8f3ee4495d" style="width: 100.0%; height: 100.0%;"><b>Hipermercado UberlândiaSta Monica</b><br>Preço: <b>R$15.99</b></div>`)[0];
+                popup_12caec34c4f1f8435165886c8cdb5880.setContent(html_23226f8f5af62308c3520f8f3ee4495d);
+            
+        
+
+        circle_marker_ae219e6783c0f2e5dabe48e483603023.bindPopup(popup_12caec34c4f1f8435165886c8cdb5880)
+        ;
+
+        
+    
+    
+            var circle_marker_35e62bf9912b3a2d324c2d1203f6474f = L.circleMarker(
+                [-20.45765, -54.58963],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fe8f3cff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_daf9f9ed15451429c25844cba92e0fdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1a84f0dd7ac2cdd8540c976643a1539 = $(`<div id="html_f1a84f0dd7ac2cdd8540c976643a1539" style="width: 100.0%; height: 100.0%;"><b>Hipermercado Campo GrandeSanta Fe</b><br>Preço: <b>R$12.45</b></div>`)[0];
+                popup_daf9f9ed15451429c25844cba92e0fdb.setContent(html_f1a84f0dd7ac2cdd8540c976643a1539);
+            
+        
+
+        circle_marker_35e62bf9912b3a2d324c2d1203f6474f.bindPopup(popup_daf9f9ed15451429c25844cba92e0fdb)
+        ;
+
+        
+    
+    
+            var circle_marker_58616fd0fc80b6b233ac2fa4a8e6fd76 = L.circleMarker(
+                [-7.22202, -35.88584],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd6931ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_757332dfb9048bd4de41fc2539e32622 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dce7847e6e9604fd3a0982a7fbff6fc = $(`<div id="html_1dce7847e6e9604fd3a0982a7fbff6fc" style="width: 100.0%; height: 100.0%;"><b>Hiper Campina GrandeS José</b><br>Preço: <b>R$12.99</b></div>`)[0];
+                popup_757332dfb9048bd4de41fc2539e32622.setContent(html_1dce7847e6e9604fd3a0982a7fbff6fc);
+            
+        
+
+        circle_marker_58616fd0fc80b6b233ac2fa4a8e6fd76.bindPopup(popup_757332dfb9048bd4de41fc2539e32622)
+        ;
+
+        
+    
+    
+            var circle_marker_07bd6c56d9d6774492e9ed5394a6851c = L.circleMarker(
+                [-7.14594, -34.84909],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd6931ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_e91eae1f5eddcc583291f85a9d4b2bc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c15d438ede72dbc7a0aede3bf904107 = $(`<div id="html_7c15d438ede72dbc7a0aede3bf904107" style="width: 100.0%; height: 100.0%;"><b>Hipermercado JP Cidade dos BancáriosJardim Sao Paulo</b><br>Preço: <b>R$12.99</b></div>`)[0];
+                popup_e91eae1f5eddcc583291f85a9d4b2bc3.setContent(html_7c15d438ede72dbc7a0aede3bf904107);
+            
+        
+
+        circle_marker_07bd6c56d9d6774492e9ed5394a6851c.bindPopup(popup_e91eae1f5eddcc583291f85a9d4b2bc3)
+        ;
+
+        
+    
+    
+            var circle_marker_cf16986c6b3f506a0643e2edb9423c4b = L.circleMarker(
+                [-8.14956, -34.91658],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd6931ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_e717455ad5eb56f65f24c6c6de994fdf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfbc75d2859f6509764fdac0672552b3 = $(`<div id="html_cfbc75d2859f6509764fdac0672552b3" style="width: 100.0%; height: 100.0%;"><b>Hiper JaboatãoPiedade</b><br>Preço: <b>R$12.99</b></div>`)[0];
+                popup_e717455ad5eb56f65f24c6c6de994fdf.setContent(html_cfbc75d2859f6509764fdac0672552b3);
+            
+        
+
+        circle_marker_cf16986c6b3f506a0643e2edb9423c4b.bindPopup(popup_e717455ad5eb56f65f24c6c6de994fdf)
+        ;
+
+        
+    
+    
+            var circle_marker_c63ea60825df3a38c673b585eedcfe29 = L.circleMarker(
+                [-9.38299, -40.4901],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd6931ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_81c535021366568d3ca8fb3fdc7005aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e349e9f09aef5ab1d7144887cff98732 = $(`<div id="html_e349e9f09aef5ab1d7144887cff98732" style="width: 100.0%; height: 100.0%;"><b>Hiper Shopping PetrolinaCentro</b><br>Preço: <b>R$12.99</b></div>`)[0];
+                popup_81c535021366568d3ca8fb3fdc7005aa.setContent(html_e349e9f09aef5ab1d7144887cff98732);
+            
+        
+
+        circle_marker_c63ea60825df3a38c673b585eedcfe29.bindPopup(popup_81c535021366568d3ca8fb3fdc7005aa)
+        ;
+
+        
+    
+    
+            var circle_marker_9b98d307333e1e42cf080259e23758f5 = L.circleMarker(
+                [-8.09017, -34.90133],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd6931ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_7f3461c2ba654743594537fa8916bdda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c8943e7437ec4a32c9773bed7176610 = $(`<div id="html_0c8943e7437ec4a32c9773bed7176610" style="width: 100.0%; height: 100.0%;"><b>Hipermercado Domingos FerreiraBoa Viagem</b><br>Preço: <b>R$12.99</b></div>`)[0];
+                popup_7f3461c2ba654743594537fa8916bdda.setContent(html_0c8943e7437ec4a32c9773bed7176610);
+            
+        
+
+        circle_marker_9b98d307333e1e42cf080259e23758f5.bindPopup(popup_7f3461c2ba654743594537fa8916bdda)
+        ;
+
+        
+    
+    
+            var circle_marker_5aecf7ae831e9de3b0a46f4fcb177654 = L.circleMarker(
+                [-25.43712, -49.31851],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feca65ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_dd214bba670d1e848e1641aac1a0bf17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe21512f27b4fef5cf5f31f48dc39961 = $(`<div id="html_fe21512f27b4fef5cf5f31f48dc39961" style="width: 100.0%; height: 100.0%;"><b>Hipermercado ChampagnatMossunguê</b><br>Preço: <b>R$11.09</b></div>`)[0];
+                popup_dd214bba670d1e848e1641aac1a0bf17.setContent(html_fe21512f27b4fef5cf5f31f48dc39961);
+            
+        
+
+        circle_marker_5aecf7ae831e9de3b0a46f4fcb177654.bindPopup(popup_dd214bba670d1e848e1641aac1a0bf17)
+        ;
+
+        
+    
+    
+            var circle_marker_8de9548f8e8b3f39d6ff4e61342d31c8 = L.circleMarker(
+                [-22.79203, -43.30081],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_531db4f097cefc77eb9139c8fab6a8b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c16a547ebbd8782ce121401bd3b2266 = $(`<div id="html_1c16a547ebbd8782ce121401bd3b2266" style="width: 100.0%; height: 100.0%;"><b>Hipermercado Duque de Caxias BrigadeiroJardim Vinte e Cinco de Agosto</b><br>Preço: <b>R$15.99</b></div>`)[0];
+                popup_531db4f097cefc77eb9139c8fab6a8b6.setContent(html_1c16a547ebbd8782ce121401bd3b2266);
+            
+        
+
+        circle_marker_8de9548f8e8b3f39d6ff4e61342d31c8.bindPopup(popup_531db4f097cefc77eb9139c8fab6a8b6)
+        ;
+
+        
+    
+    
+            var circle_marker_a08b5d3632b6695f6f1e911acce87ef1 = L.circleMarker(
+                [-22.98773, -43.36071],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_a7c77c16d2c6873d78bc6c9cd3e4f136 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9fc03242b70bc267baf59cdd49741ef = $(`<div id="html_d9fc03242b70bc267baf59cdd49741ef" style="width: 100.0%; height: 100.0%;"><b>Hipermercado BarraBarra da Tijuca</b><br>Preço: <b>R$15.99</b></div>`)[0];
+                popup_a7c77c16d2c6873d78bc6c9cd3e4f136.setContent(html_d9fc03242b70bc267baf59cdd49741ef);
+            
+        
+
+        circle_marker_a08b5d3632b6695f6f1e911acce87ef1.bindPopup(popup_a7c77c16d2c6873d78bc6c9cd3e4f136)
+        ;
+
+        
+    
+    
+            var circle_marker_cb5959e0a945bda13857ece521d9c807 = L.circleMarker(
+                [-22.81845, -43.0076],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_3ba430c1aa789b29b001be9ad58dde1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_172227d053311e35fb58d0a8f2643b63 = $(`<div id="html_172227d053311e35fb58d0a8f2643b63" style="width: 100.0%; height: 100.0%;"><b>Hipermercado AlcântaraAlcantara</b><br>Preço: <b>R$15.99</b></div>`)[0];
+                popup_3ba430c1aa789b29b001be9ad58dde1f.setContent(html_172227d053311e35fb58d0a8f2643b63);
+            
+        
+
+        circle_marker_cb5959e0a945bda13857ece521d9c807.bindPopup(popup_3ba430c1aa789b29b001be9ad58dde1f)
+        ;
+
+        
+    
+    
+            var circle_marker_43d3e7e62dfd515a3b79c667a7eb836f = L.circleMarker(
+                [-21.76534, -41.34352],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_dac3b838c6c937257d93b021e3cfa450 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e32a5ab823ef06bc5a400f85981140f4 = $(`<div id="html_e32a5ab823ef06bc5a400f85981140f4" style="width: 100.0%; height: 100.0%;"><b>Hiper Campos de GoytacazesQueimados</b><br>Preço: <b>R$15.99</b></div>`)[0];
+                popup_dac3b838c6c937257d93b021e3cfa450.setContent(html_e32a5ab823ef06bc5a400f85981140f4);
+            
+        
+
+        circle_marker_43d3e7e62dfd515a3b79c667a7eb836f.bindPopup(popup_dac3b838c6c937257d93b021e3cfa450)
+        ;
+
+        
+    
+    
+            var circle_marker_61cfec0666ab82ec87554bd394f3daf0 = L.circleMarker(
+                [-22.3843, -41.80788],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800026ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_f9ad219d107fcbd122a8b90ac64d8e82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f212d25d0b5fe0831efb91261d7cfb39 = $(`<div id="html_f212d25d0b5fe0831efb91261d7cfb39" style="width: 100.0%; height: 100.0%;"><b>Hiper MacaéGranja dos Cavaleiros</b><br>Preço: <b>R$15.99</b></div>`)[0];
+                popup_f9ad219d107fcbd122a8b90ac64d8e82.setContent(html_f212d25d0b5fe0831efb91261d7cfb39);
+            
+        
+
+        circle_marker_61cfec0666ab82ec87554bd394f3daf0.bindPopup(popup_f9ad219d107fcbd122a8b90ac64d8e82)
+        ;
+
+        
+    
+    
+            var circle_marker_72933f5c283778322739aa492c936120 = L.circleMarker(
+                [-5.1844, -37.35065],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd6931ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_e6bd92b39948041a994e6a439882341c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b7368845ec19bcfde40bffa045ff187 = $(`<div id="html_8b7368845ec19bcfde40bffa045ff187" style="width: 100.0%; height: 100.0%;"><b>BIG MossoróDoze Anos</b><br>Preço: <b>R$12.99</b></div>`)[0];
+                popup_e6bd92b39948041a994e6a439882341c.setContent(html_8b7368845ec19bcfde40bffa045ff187);
+            
+        
+
+        circle_marker_72933f5c283778322739aa492c936120.bindPopup(popup_e6bd92b39948041a994e6a439882341c)
+        ;
+
+        
+    
+    
+            var circle_marker_d699cfec6a3236ca057a6a53b24f6cd1 = L.circleMarker(
+                [-5.82609, -35.21258],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd6931ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_77ab9447d7eb93b8211bc53779f01ed2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_260ac833bd6910d7034640596a319b2b = $(`<div id="html_260ac833bd6910d7034640596a319b2b" style="width: 100.0%; height: 100.0%;"><b>Hipermercado NatalLagoa Nova</b><br>Preço: <b>R$12.99</b></div>`)[0];
+                popup_77ab9447d7eb93b8211bc53779f01ed2.setContent(html_260ac833bd6910d7034640596a319b2b);
+            
+        
+
+        circle_marker_d699cfec6a3236ca057a6a53b24f6cd1.bindPopup(popup_77ab9447d7eb93b8211bc53779f01ed2)
+        ;
+
+        
+    
+    
+            var circle_marker_bc3b000b09e0e77af47a7d5152e81c6c = L.circleMarker(
+                [-29.90567, -51.18706],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffffccff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_77bd49b6efdb71a1fd47e0fa0a95af41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_828f163f734bdc3eb939893a9a7995db = $(`<div id="html_828f163f734bdc3eb939893a9a7995db" style="width: 100.0%; height: 100.0%;"><b>Hipermercado CanoasMathias Velho 07</b><br>Preço: <b>R$8.99</b></div>`)[0];
+                popup_77bd49b6efdb71a1fd47e0fa0a95af41.setContent(html_828f163f734bdc3eb939893a9a7995db);
+            
+        
+
+        circle_marker_bc3b000b09e0e77af47a7d5152e81c6c.bindPopup(popup_77bd49b6efdb71a1fd47e0fa0a95af41)
+        ;
+
+        
+    
+    
+            var circle_marker_f9be046572d23ba354175fdc2ce0e5dc = L.circleMarker(
+                [-29.17665, -51.21822],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffffccff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_0e32e3fe4fc8a924d5ca798f9234ec7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28e1544b7a990fd7041871746693fd3a = $(`<div id="html_28e1544b7a990fd7041871746693fd3a" style="width: 100.0%; height: 100.0%;"><b>Hipermercado CaxiasCidade Nova</b><br>Preço: <b>R$8.99</b></div>`)[0];
+                popup_0e32e3fe4fc8a924d5ca798f9234ec7c.setContent(html_28e1544b7a990fd7041871746693fd3a);
+            
+        
+
+        circle_marker_f9be046572d23ba354175fdc2ce0e5dc.bindPopup(popup_0e32e3fe4fc8a924d5ca798f9234ec7c)
+        ;
+
+        
+    
+    
+            var circle_marker_0fdee22db79e07b8c4fe8829d342284a = L.circleMarker(
+                [-29.9361, -50.99679],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffffccff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_640e4f222ef8db125994265ac41f3b25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91dc5b56ac57a38032082eb23f46687c = $(`<div id="html_91dc5b56ac57a38032082eb23f46687c" style="width: 100.0%; height: 100.0%;"><b>Hipermercado GravataíCohab C - Centro</b><br>Preço: <b>R$8.99</b></div>`)[0];
+                popup_640e4f222ef8db125994265ac41f3b25.setContent(html_91dc5b56ac57a38032082eb23f46687c);
+            
+        
+
+        circle_marker_0fdee22db79e07b8c4fe8829d342284a.bindPopup(popup_640e4f222ef8db125994265ac41f3b25)
+        ;
+
+        
+    
+    
+            var circle_marker_cc9db9413afd689a9406b2f39b8993d3 = L.circleMarker(
+                [-29.68246, -51.13222],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd6931ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_3b19910e6b5fc06a3ecae18550ec77ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_234efbd91d3c20c0fc0db5f2f883a622 = $(`<div id="html_234efbd91d3c20c0fc0db5f2f883a622" style="width: 100.0%; height: 100.0%;"><b>Carrefour Novo HamburgoCentro</b><br>Preço: <b>R$12.99</b></div>`)[0];
+                popup_3b19910e6b5fc06a3ecae18550ec77ce.setContent(html_234efbd91d3c20c0fc0db5f2f883a622);
+            
+        
+
+        circle_marker_cc9db9413afd689a9406b2f39b8993d3.bindPopup(popup_3b19910e6b5fc06a3ecae18550ec77ce)
+        ;
+
+        
+    
+    
+            var circle_marker_ea00eebf2a0348be2036e3e329cf064a = L.circleMarker(
+                [-31.76344, -52.32847],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffed9fff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_20bfbe7d60486f6bc76b73f47db841a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45cf5096b89d1c2283abf8f54a1559fc = $(`<div id="html_45cf5096b89d1c2283abf8f54a1559fc" style="width: 100.0%; height: 100.0%;"><b>BIG PelotasAreal</b><br>Preço: <b>R$9.89</b></div>`)[0];
+                popup_20bfbe7d60486f6bc76b73f47db841a4.setContent(html_45cf5096b89d1c2283abf8f54a1559fc);
+            
+        
+
+        circle_marker_ea00eebf2a0348be2036e3e329cf064a.bindPopup(popup_20bfbe7d60486f6bc76b73f47db841a4)
+        ;
+
+        
+    
+    
+            var circle_marker_d91c9c5b91da6c67038412c630cf48d7 = L.circleMarker(
+                [-30.05709, -51.16583],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff9bdff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_9c1a31905636991535e1dfc536af5491 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65bad32f122f59ee6782e23611c5afa2 = $(`<div id="html_65bad32f122f59ee6782e23611c5afa2" style="width: 100.0%; height: 100.0%;"><b>Hipermercado PartenonPartenon</b><br>Preço: <b>R$9.29</b></div>`)[0];
+                popup_9c1a31905636991535e1dfc536af5491.setContent(html_65bad32f122f59ee6782e23611c5afa2);
+            
+        
+
+        circle_marker_d91c9c5b91da6c67038412c630cf48d7.bindPopup(popup_9c1a31905636991535e1dfc536af5491)
+        ;
+
+        
+    
+    
+            var circle_marker_d778dc5da1c46e9dc91aff93cfb44c01 = L.circleMarker(
+                [-29.67947, -53.80657],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffed9fff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_04ac30fcc29f9671b990d7d25a03df42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9ced2e084f4b5a53d6985848068e2e2 = $(`<div id="html_a9ced2e084f4b5a53d6985848068e2e2" style="width: 100.0%; height: 100.0%;"><b>Hipermercado Santa MariaCentro</b><br>Preço: <b>R$9.89</b></div>`)[0];
+                popup_04ac30fcc29f9671b990d7d25a03df42.setContent(html_a9ced2e084f4b5a53d6985848068e2e2);
+            
+        
+
+        circle_marker_d778dc5da1c46e9dc91aff93cfb44c01.bindPopup(popup_04ac30fcc29f9671b990d7d25a03df42)
+        ;
+
+        
+    
+    
+            var circle_marker_94172f104290128e475614b87d158ce2 = L.circleMarker(
+                [-30.07905, -51.10104],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fd6931ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_25ae8da7d48ed1e6ff5c430229dade74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a772665d7bb3c13b2193b6ac1282466 = $(`<div id="html_8a772665d7bb3c13b2193b6ac1282466" style="width: 100.0%; height: 100.0%;"><b>BIG ViamãoCecília</b><br>Preço: <b>R$12.99</b></div>`)[0];
+                popup_25ae8da7d48ed1e6ff5c430229dade74.setContent(html_8a772665d7bb3c13b2193b6ac1282466);
+            
+        
+
+        circle_marker_94172f104290128e475614b87d158ce2.bindPopup(popup_25ae8da7d48ed1e6ff5c430229dade74)
+        ;
+
+        
+    
+    
+            var circle_marker_3065fbdb34531d43a97f3c017f23ebb1 = L.circleMarker(
+                [-27.00295, -48.62218],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eb2920ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_06d5c7f1eacd3a68c5de7473b8e58d01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d430a8fff266c779f935eaf3de4ca85 = $(`<div id="html_2d430a8fff266c779f935eaf3de4ca85" style="width: 100.0%; height: 100.0%;"><b>Hiper Balneário CamboriuCentro</b><br>Preço: <b>R$13.99</b></div>`)[0];
+                popup_06d5c7f1eacd3a68c5de7473b8e58d01.setContent(html_2d430a8fff266c779f935eaf3de4ca85);
+            
+        
+
+        circle_marker_3065fbdb34531d43a97f3c017f23ebb1.bindPopup(popup_06d5c7f1eacd3a68c5de7473b8e58d01)
+        ;
+
+        
+    
+    
+            var circle_marker_e709d83be7ff152fcb430f55ed2b1bfe = L.circleMarker(
+                [-27.58926, -48.51513],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eb2920ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_7b36e817ed8c4fa71ab7a7f5f6863777 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22e1b6a5b3ddcfcfdd6f0db2973fce72 = $(`<div id="html_22e1b6a5b3ddcfcfdd6f0db2973fce72" style="width: 100.0%; height: 100.0%;"><b>Hiper Florianópolis ShoppingSanta Monica</b><br>Preço: <b>R$13.99</b></div>`)[0];
+                popup_7b36e817ed8c4fa71ab7a7f5f6863777.setContent(html_22e1b6a5b3ddcfcfdd6f0db2973fce72);
+            
+        
+
+        circle_marker_e709d83be7ff152fcb430f55ed2b1bfe.bindPopup(popup_7b36e817ed8c4fa71ab7a7f5f6863777)
+        ;
+
+        
+    
+    
+            var circle_marker_fc08d9acab652c8fc5ba04075e8f96b5 = L.circleMarker(
+                [-23.08029, -47.21039],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffeb9bff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_e3b43a03fd864c87570d768e107bd0e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc0e1188558da5f88c9e496012981f14 = $(`<div id="html_fc0e1188558da5f88c9e496012981f14" style="width: 100.0%; height: 100.0%;"><b>Carrefour Bairro IndaiatubaCidade Nova</b><br>Preço: <b>R$9.98</b></div>`)[0];
+                popup_e3b43a03fd864c87570d768e107bd0e8.setContent(html_fc0e1188558da5f88c9e496012981f14);
+            
+        
+
+        circle_marker_fc08d9acab652c8fc5ba04075e8f96b5.bindPopup(popup_e3b43a03fd864c87570d768e107bd0e8)
+        ;
+
+        
+    
+    
+            var circle_marker_2dbc3c96f782e62d57278586c392f8b5 = L.circleMarker(
+                [-23.25224, -47.2995],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffeb9bff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_b3f7a650cab531a6813f84bc38fc5442 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44b9d9223dac54136116e6abfc21ff92 = $(`<div id="html_44b9d9223dac54136116e6abfc21ff92" style="width: 100.0%; height: 100.0%;"><b>Carrefour Bairro ItuLiberdade</b><br>Preço: <b>R$9.98</b></div>`)[0];
+                popup_b3f7a650cab531a6813f84bc38fc5442.setContent(html_44b9d9223dac54136116e6abfc21ff92);
+            
+        
+
+        circle_marker_2dbc3c96f782e62d57278586c392f8b5.bindPopup(popup_b3f7a650cab531a6813f84bc38fc5442)
+        ;
+
+        
+    
+    
+            var circle_marker_2f1e89c1d283058a779094a99e36c025 = L.circleMarker(
+                [-23.20035, -47.2893],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffeb9bff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_4931f60d94de0f2b0aec1b2cfaa40154 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57841169ace5856b8f1bd4f8d637ad31 = $(`<div id="html_57841169ace5856b8f1bd4f8d637ad31" style="width: 100.0%; height: 100.0%;"><b>Carrefour Bairro SaltoVila Nova</b><br>Preço: <b>R$9.98</b></div>`)[0];
+                popup_4931f60d94de0f2b0aec1b2cfaa40154.setContent(html_57841169ace5856b8f1bd4f8d637ad31);
+            
+        
+
+        circle_marker_2f1e89c1d283058a779094a99e36c025.bindPopup(popup_4931f60d94de0f2b0aec1b2cfaa40154)
+        ;
+
+        
+    
+    
+            var circle_marker_bbde28198567e64ddaafcc1e7620599c = L.circleMarker(
+                [-23.6087, -46.56537],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe48cff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_4a15223f807cbd5355a8356a78d46ee3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afe765616dea5292b0117346b5797ae6 = $(`<div id="html_afe765616dea5292b0117346b5797ae6" style="width: 100.0%; height: 100.0%;"><b>Hipermercado São Caetano do SulFundação</b><br>Preço: <b>R$10.29</b></div>`)[0];
+                popup_4a15223f807cbd5355a8356a78d46ee3.setContent(html_afe765616dea5292b0117346b5797ae6);
+            
+        
+
+        circle_marker_bbde28198567e64ddaafcc1e7620599c.bindPopup(popup_4a15223f807cbd5355a8356a78d46ee3)
+        ;
+
+        
+    
+    
+            var circle_marker_d9e365a30a14624629357f0b22b2e45d = L.circleMarker(
+                [-20.83233, -49.39859],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffeb9bff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+        
+    
+        var popup_b67d1d058a0aec79bdc8dbff0a7e5df3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01e8d3a63a26c70427f3cf4c15442571 = $(`<div id="html_01e8d3a63a26c70427f3cf4c15442571" style="width: 100.0%; height: 100.0%;"><b>Hipermercado Rio Preto ShoppingJd Fernandes</b><br>Preço: <b>R$9.98</b></div>`)[0];
+                popup_b67d1d058a0aec79bdc8dbff0a7e5df3.setContent(html_01e8d3a63a26c70427f3cf4c15442571);
+            
+        
+
+        circle_marker_d9e365a30a14624629357f0b22b2e45d.bindPopup(popup_b67d1d058a0aec79bdc8dbff0a7e5df3)
+        ;
+
+        
+    
+    
+    var color_map_40f4767c07fb95c5dfa1551e3574d559 = {};
+
+    
+    color_map_40f4767c07fb95c5dfa1551e3574d559.color = d3.scale.threshold()
+              .domain([8.99, 9.004028056112224, 9.01805611222445, 9.032084168336674, 9.046112224448898, 9.060140280561123, 9.074168336673347, 9.088196392785571, 9.102224448897795, 9.11625250501002, 9.130280561122245, 9.144308617234469, 9.158336673346694, 9.172364729458918, 9.186392785571142, 9.200420841683368, 9.214448897795592, 9.228476953907816, 9.24250501002004, 9.256533066132265, 9.270561122244489, 9.284589178356713, 9.298617234468939, 9.312645290581163, 9.326673346693386, 9.340701402805612, 9.354729458917836, 9.36875751503006, 9.382785571142286, 9.39681362725451, 9.410841683366733, 9.424869739478957, 9.438897795591183, 9.452925851703407, 9.46695390781563, 9.480981963927857, 9.49501002004008, 9.509038076152304, 9.52306613226453, 9.537094188376754, 9.551122244488978, 9.565150300601204, 9.579178356713427, 9.593206412825651, 9.607234468937875, 9.621262525050101, 9.635290581162325, 9.649318637274549, 9.663346693386774, 9.677374749498998, 9.691402805611222, 9.705430861723448, 9.719458917835672, 9.733486973947896, 9.74751503006012, 9.761543086172345, 9.77557114228457, 9.789599198396793, 9.803627254509019, 9.817655310621243, 9.831683366733467, 9.845711422845692, 9.859739478957916, 9.87376753507014, 9.887795591182364, 9.90182364729459, 9.915851703406814, 9.929879759519038, 9.943907815631263, 9.957935871743487, 9.971963927855711, 9.985991983967937, 10.00002004008016, 10.014048096192385, 10.02807615230461, 10.042104208416834, 10.056132264529058, 10.070160320641282, 10.084188376753508, 10.098216432865732, 10.112244488977955, 10.126272545090181, 10.140300601202405, 10.154328657314629, 10.168356713426855, 10.182384769539079, 10.196412825651302, 10.210440881763528, 10.224468937875752, 10.238496993987976, 10.2525250501002, 10.266553106212426, 10.28058116232465, 10.294609218436873, 10.308637274549099, 10.322665330661323, 10.336693386773547, 10.35072144288577, 10.364749498997996, 10.37877755511022, 10.392805611222446, 10.40683366733467, 10.420861723446894, 10.434889779559118, 10.448917835671343, 10.462945891783567, 10.476973947895791, 10.491002004008017, 10.50503006012024, 10.519058116232465, 10.533086172344689, 10.547114228456914, 10.561142284569138, 10.575170340681362, 10.589198396793588, 10.603226452905812, 10.617254509018036, 10.631282565130261, 10.645310621242485, 10.65933867735471, 10.673366733466935, 10.687394789579159, 10.701422845691383, 10.715450901803607, 10.729478957915832, 10.743507014028056, 10.75753507014028, 10.771563126252506, 10.78559118236473, 10.799619238476954, 10.81364729458918, 10.827675350701403, 10.841703406813627, 10.855731462925853, 10.869759519038077, 10.8837875751503, 10.897815631262525, 10.91184368737475, 10.925871743486974, 10.939899799599198, 10.953927855711424, 10.967955911823648, 10.981983967935872, 10.996012024048095, 11.010040080160321, 11.024068136272545, 11.03809619238477, 11.052124248496995, 11.066152304609219, 11.080180360721442, 11.094208416833668, 11.108236472945892, 11.122264529058116, 11.136292585170342, 11.150320641282566, 11.16434869739479, 11.178376753507013, 11.192404809619239, 11.206432865731463, 11.220460921843689, 11.234488977955913, 11.248517034068136, 11.26254509018036, 11.276573146292586, 11.29060120240481, 11.304629258517034, 11.31865731462926, 11.332685370741483, 11.346713426853707, 11.360741482965931, 11.374769539078157, 11.38879759519038, 11.402825651302607, 11.41685370741483, 11.430881763527054, 11.444909819639278, 11.458937875751502, 11.472965931863728, 11.486993987975952, 11.501022044088177, 11.515050100200401, 11.529078156312625, 11.54310621242485, 11.557134268537075, 11.571162324649299, 11.585190380761523, 11.599218436873748, 11.613246492985972, 11.627274549098196, 11.64130260521042, 11.655330661322646, 11.66935871743487, 11.683386773547095, 11.69741482965932, 11.711442885771543, 11.725470941883767, 11.739498997995993, 11.753527054108217, 11.76755511022044, 11.781583166332666, 11.79561122244489, 11.809639278557114, 11.823667334669338, 11.837695390781564, 11.851723446893788, 11.865751503006013, 11.879779559118237, 11.893807615230461, 11.907835671342685, 11.92186372745491, 11.935891783567135, 11.949919839679358, 11.963947895791584, 11.977975951903808, 11.992004008016032, 12.006032064128256, 12.020060120240482, 12.034088176352705, 12.048116232464931, 12.062144288577155, 12.076172344689379, 12.090200400801603, 12.104228456913827, 12.118256513026052, 12.132284569138276, 12.146312625250502, 12.160340681362726, 12.17436873747495, 12.188396793587174, 12.2024248496994, 12.216452905811623, 12.230480961923847, 12.244509018036073, 12.258537074148297, 12.27256513026052, 12.286593186372745, 12.30062124248497, 12.314649298597194, 12.32867735470942, 12.342705410821644, 12.356733466933868, 12.370761523046092, 12.384789579158317, 12.398817635270541, 12.412845691382765, 12.42687374749499, 12.440901803607215, 12.454929859719439, 12.468957915831663, 12.482985971943888, 12.497014028056112, 12.511042084168338, 12.525070140280562, 12.539098196392786, 12.55312625250501, 12.567154308617235, 12.58118236472946, 12.595210420841683, 12.609238476953909, 12.623266533066133, 12.637294589178357, 12.65132264529058, 12.665350701402806, 12.67937875751503, 12.693406813627256, 12.70743486973948, 12.721462925851704, 12.735490981963927, 12.749519038076153, 12.763547094188377, 12.777575150300601, 12.791603206412827, 12.80563126252505, 12.819659318637274, 12.833687374749498, 12.847715430861724, 12.861743486973948, 12.875771543086174, 12.889799599198398, 12.903827655310621, 12.917855711422845, 12.93188376753507, 12.945911823647295, 12.959939879759519, 12.973967935871745, 12.987995991983968, 13.002024048096192, 13.016052104208416, 13.03008016032064, 13.044108216432866, 13.058136272545092, 13.072164328657315, 13.08619238476954, 13.100220440881763, 13.114248496993987, 13.128276553106213, 13.142304609218437, 13.156332665330662, 13.170360721442886, 13.18438877755511, 13.198416833667334, 13.212444889779558, 13.226472945891784, 13.24050100200401, 13.254529058116233, 13.268557114228457, 13.282585170340681, 13.296613226452905, 13.31064128256513, 13.324669338677355, 13.33869739478958, 13.352725450901804, 13.366753507014028, 13.380781563126252, 13.394809619238476, 13.408837675350702, 13.422865731462927, 13.436893787575151, 13.450921843687375, 13.464949899799599, 13.478977955911823, 13.493006012024049, 13.507034068136273, 13.521062124248498, 13.535090180360722, 13.549118236472946, 13.56314629258517, 13.577174348697394, 13.59120240480962, 13.605230460921844, 13.61925851703407, 13.633286573146293, 13.647314629258517, 13.661342685370741, 13.675370741482965, 13.68939879759519, 13.703426853707416, 13.71745490981964, 13.731482965931864, 13.745511022044088, 13.759539078156312, 13.773567134268538, 13.787595190380761, 13.801623246492987, 13.815651302605211, 13.829679358717435, 13.843707414829659, 13.857735470941883, 13.871763527054108, 13.885791583166334, 13.899819639278558, 13.913847695390782, 13.927875751503006, 13.94190380761523, 13.955931863727455, 13.96995991983968, 13.983987975951905, 13.998016032064129, 14.012044088176353, 14.026072144288577, 14.0401002004008, 14.054128256513026, 14.068156312625252, 14.082184368737476, 14.0962124248497, 14.110240480961924, 14.124268537074148, 14.138296593186373, 14.152324649298597, 14.166352705410823, 14.180380761523047, 14.19440881763527, 14.208436873747495, 14.222464929859719, 14.236492985971944, 14.250521042084168, 14.264549098196394, 14.278577154308618, 14.292605210420842, 14.306633266533066, 14.320661322645291, 14.334689378757515, 14.34871743486974, 14.362745490981965, 14.376773547094189, 14.390801603206413, 14.404829659318636, 14.418857715430862, 14.432885771543086, 14.446913827655312, 14.460941883767536, 14.47496993987976, 14.488997995991983, 14.503026052104207, 14.517054108216433, 14.531082164328659, 14.545110220440883, 14.559138276553107, 14.57316633266533, 14.587194388777554, 14.60122244488978, 14.615250501002004, 14.62927855711423, 14.643306613226454, 14.657334669338677, 14.671362725450901, 14.685390781563125, 14.699418837675351, 14.713446893787577, 14.7274749498998, 14.741503006012024, 14.755531062124248, 14.769559118236472, 14.783587174348698, 14.797615230460922, 14.811643286573148, 14.825671342685371, 14.839699398797595, 14.85372745490982, 14.867755511022043, 14.881783567134269, 14.895811623246493, 14.909839679358718, 14.923867735470942, 14.937895791583166, 14.95192384769539, 14.965951903807616, 14.97997995991984, 14.994008016032065, 15.00803607214429, 15.022064128256513, 15.036092184368737, 15.050120240480961, 15.064148296593187, 15.07817635270541, 15.092204408817636, 15.10623246492986, 15.120260521042084, 15.134288577154308, 15.148316633266532, 15.162344689378758, 15.176372745490983, 15.190400801603207, 15.204428857715431, 15.218456913827655, 15.232484969939879, 15.246513026052105, 15.260541082164329, 15.274569138276554, 15.288597194388778, 15.302625250501002, 15.316653306613226, 15.33068136272545, 15.344709418837676, 15.358737474949901, 15.372765531062125, 15.386793587174349, 15.400821643286573, 15.414849699398797, 15.428877755511023, 15.442905811623246, 15.456933867735472, 15.470961923847696, 15.48498997995992, 15.499018036072144, 15.513046092184368, 15.527074148296593, 15.54110220440882, 15.555130260521043, 15.569158316633267, 15.583186372745491, 15.597214428857715, 15.61124248496994, 15.625270541082164, 15.63929859719439, 15.653326653306614, 15.667354709418838, 15.681382765531062, 15.695410821643286, 15.709438877755511, 15.723466933867735, 15.737494989979961, 15.751523046092185, 15.765551102204409, 15.779579158316633, 15.793607214428857, 15.807635270541082, 15.821663326653308, 15.835691382765532, 15.849719438877756, 15.86374749498998, 15.877775551102204, 15.89180360721443, 15.905831663326653, 15.919859719438879, 15.933887775551103, 15.947915831663327, 15.96194388777555, 15.975971943887775, 15.99])
+              .range(['#ffffccff', '#ffffccff', '#ffffcbff', '#ffffcaff', '#fffec9ff', '#fffec9ff', '#fffec8ff', '#fffdc7ff', '#fffdc7ff', '#fffdc6ff', '#fffdc5ff', '#fffcc5ff', '#fffcc4ff', '#fffcc3ff', '#fffbc2ff', '#fffbc2ff', '#fffbc1ff', '#fffbc0ff', '#fffac0ff', '#fffabfff', '#fffabeff', '#fff9bdff', '#fff9bdff', '#fff9bcff', '#fff9bbff', '#fff8bbff', '#fff8baff', '#fff8b9ff', '#fff7b8ff', '#fff7b8ff', '#fff7b7ff', '#fff7b6ff', '#fff6b6ff', '#fff6b5ff', '#fff6b4ff', '#fff5b4ff', '#fff5b3ff', '#fff5b2ff', '#fff4b1ff', '#fff4b1ff', '#fff4b0ff', '#fff4afff', '#fff3afff', '#fff3aeff', '#fff3adff', '#fff2acff', '#fff2acff', '#fff2abff', '#fff2aaff', '#fff1aaff', '#fff1a9ff', '#fff1a8ff', '#fff0a7ff', '#fff0a7ff', '#fff0a6ff', '#fff0a5ff', '#ffefa5ff', '#ffefa4ff', '#ffefa3ff', '#ffeea3ff', '#ffeea2ff', '#ffeea1ff', '#ffeea0ff', '#ffeda0ff', '#ffed9fff', '#ffed9eff', '#ffec9eff', '#ffec9dff', '#ffec9cff', '#ffeb9cff', '#ffeb9bff', '#ffeb9aff', '#ffea9aff', '#ffea99ff', '#ffea98ff', '#ffe998ff', '#ffe997ff', '#ffe996ff', '#ffe896ff', '#ffe895ff', '#ffe894ff', '#ffe794ff', '#ffe793ff', '#ffe792ff', '#ffe692ff', '#ffe691ff', '#ffe690ff', '#ffe68fff', '#ffe58fff', '#ffe58eff', '#ffe58dff', '#ffe48dff', '#ffe48cff', '#ffe48bff', '#ffe38bff', '#ffe38aff', '#ffe389ff', '#ffe289ff', '#ffe288ff', '#ffe287ff', '#ffe187ff', '#ffe186ff', '#ffe185ff', '#ffe085ff', '#ffe084ff', '#ffe083ff', '#ffdf83ff', '#ffdf82ff', '#ffdf81ff', '#ffde81ff', '#ffde80ff', '#ffde7fff', '#ffdd7fff', '#ffdd7eff', '#ffdd7dff', '#ffdc7dff', '#ffdc7cff', '#ffdc7bff', '#ffdc7bff', '#ffdb7aff', '#ffdb79ff', '#ffdb78ff', '#ffda78ff', '#ffda77ff', '#ffda76ff', '#fed976ff', '#fed975ff', '#fed874ff', '#fed774ff', '#fed773ff', '#fed672ff', '#fed572ff', '#fed571ff', '#fed470ff', '#fed470ff', '#fed36fff', '#fed26eff', '#fed26eff', '#fed16dff', '#fed06cff', '#fed06cff', '#fecf6bff', '#fecf6aff', '#fece6aff', '#fecd69ff', '#fecd68ff', '#fecc68ff', '#fecb67ff', '#fecb66ff', '#feca66ff', '#feca65ff', '#fec964ff', '#fec864ff', '#fec863ff', '#fec762ff', '#fec662ff', '#fec661ff', '#fec560ff', '#fec45fff', '#fec45fff', '#fec35eff', '#fec35dff', '#fec25dff', '#fec15cff', '#fec15bff', '#fec05bff', '#febf5aff', '#febf59ff', '#febe59ff', '#febe58ff', '#febd57ff', '#febc57ff', '#febc56ff', '#febb55ff', '#feba55ff', '#feba54ff', '#feb953ff', '#feb953ff', '#feb852ff', '#feb751ff', '#feb751ff', '#feb650ff', '#feb54fff', '#feb54fff', '#feb44eff', '#feb44dff', '#feb34dff', '#feb24cff', '#feb24cff', '#feb14bff', '#feb04bff', '#feb04bff', '#feaf4bff', '#feaf4aff', '#feae4aff', '#feae4aff', '#fead4aff', '#feac49ff', '#feac49ff', '#feab49ff', '#feab48ff', '#feaa48ff', '#fea948ff', '#fea948ff', '#fea847ff', '#fea847ff', '#fea747ff', '#fea647ff', '#fea646ff', '#fea546ff', '#fea546ff', '#fea446ff', '#fea345ff', '#fea345ff', '#fea245ff', '#fea245ff', '#fea144ff', '#fea044ff', '#fea044ff', '#fe9f44ff', '#fe9f43ff', '#fe9e43ff', '#fe9d43ff', '#fe9d43ff', '#fe9c42ff', '#fe9c42ff', '#fe9b42ff', '#fe9a42ff', '#fe9a41ff', '#fe9941ff', '#fe9941ff', '#fe9840ff', '#fe9740ff', '#fe9740ff', '#fe9640ff', '#fe963fff', '#fe953fff', '#fe943fff', '#fe943fff', '#fe933eff', '#fe933eff', '#fe923eff', '#fe923eff', '#fe913dff', '#fe903dff', '#fe903dff', '#fe8f3dff', '#fe8f3cff', '#fe8e3cff', '#fe8d3cff', '#fd8d3cff', '#fd8c3bff', '#fd8b3bff', '#fd8a3bff', '#fd883aff', '#fd873aff', '#fd863aff', '#fd853aff', '#fd8439ff', '#fd8339ff', '#fd8239ff', '#fd8138ff', '#fd8038ff', '#fd7f38ff', '#fd7e38ff', '#fd7d37ff', '#fd7c37ff', '#fd7b37ff', '#fd7a36ff', '#fd7936ff', '#fd7836ff', '#fd7736ff', '#fd7635ff', '#fd7535ff', '#fd7435ff', '#fd7334ff', '#fd7234ff', '#fd7134ff', '#fd7033ff', '#fd6f33ff', '#fd6e33ff', '#fd6d33ff', '#fd6c32ff', '#fd6b32ff', '#fd6a32ff', '#fd6931ff', '#fd6831ff', '#fd6731ff', '#fd6631ff', '#fd6530ff', '#fd6430ff', '#fd6330ff', '#fd622fff', '#fd612fff', '#fd602fff', '#fd5f2fff', '#fd5e2eff', '#fd5d2eff', '#fd5c2eff', '#fd5b2dff', '#fd5a2dff', '#fd592dff', '#fd582dff', '#fd572cff', '#fd562cff', '#fd552cff', '#fd542bff', '#fd532bff', '#fd522bff', '#fd512aff', '#fd502aff', '#fd4f2aff', '#fc4e2aff', '#fc4d29ff', '#fc4c29ff', '#fb4b29ff', '#fb4a29ff', '#fa4a29ff', '#fa4928ff', '#fa4828ff', '#f94728ff', '#f94628ff', '#f84527ff', '#f84427ff', '#f84427ff', '#f74327ff', '#f74226ff', '#f64126ff', '#f64026ff', '#f63f26ff', '#f53f26ff', '#f53e25ff', '#f43d25ff', '#f43c25ff', '#f43b25ff', '#f33a24ff', '#f33a24ff', '#f23924ff', '#f23824ff', '#f23724ff', '#f13623ff', '#f13523ff', '#f03523ff', '#f03423ff', '#f03322ff', '#ef3222ff', '#ef3122ff', '#ee3022ff', '#ee3022ff', '#ee2f21ff', '#ed2e21ff', '#ed2d21ff', '#ec2c21ff', '#ec2b20ff', '#ec2b20ff', '#eb2a20ff', '#eb2920ff', '#ea281fff', '#ea271fff', '#ea261fff', '#e9261fff', '#e9251fff', '#e8241eff', '#e8231eff', '#e8221eff', '#e7211eff', '#e7211dff', '#e6201dff', '#e61f1dff', '#e61e1dff', '#e51d1dff', '#e51c1cff', '#e41b1cff', '#e41b1cff', '#e31a1cff', '#e3191cff', '#e2191cff', '#e2181cff', '#e1181cff', '#e0181cff', '#e0171dff', '#df171dff', '#df161dff', '#de161dff', '#dd161dff', '#dd151dff', '#dc151eff', '#dc141eff', '#db141eff', '#da131eff', '#da131eff', '#d9131eff', '#d9121eff', '#d8121fff', '#d7111fff', '#d7111fff', '#d6111fff', '#d5101fff', '#d5101fff', '#d40f20ff', '#d40f20ff', '#d30e20ff', '#d20e20ff', '#d20e20ff', '#d10d20ff', '#d10d21ff', '#d00c21ff', '#cf0c21ff', '#cf0b21ff', '#ce0b21ff', '#ce0b21ff', '#cd0a22ff', '#cc0a22ff', '#cc0922ff', '#cb0922ff', '#ca0922ff', '#ca0822ff', '#c90822ff', '#c90723ff', '#c80723ff', '#c70623ff', '#c70623ff', '#c60623ff', '#c60523ff', '#c50524ff', '#c40424ff', '#c40424ff', '#c30424ff', '#c30324ff', '#c20324ff', '#c10225ff', '#c10225ff', '#c00125ff', '#bf0125ff', '#bf0125ff', '#be0025ff', '#be0026ff', '#bd0026ff', '#bc0026ff', '#bb0026ff', '#ba0026ff', '#b90026ff', '#b80026ff', '#b70026ff', '#b60026ff', '#b50026ff', '#b40026ff', '#b30026ff', '#b20026ff', '#b10026ff', '#b00026ff', '#af0026ff', '#ae0026ff', '#ad0026ff', '#ac0026ff', '#ab0026ff', '#aa0026ff', '#a90026ff', '#a80026ff', '#a70026ff', '#a60026ff', '#a50026ff', '#a40026ff', '#a30026ff', '#a20026ff', '#a10026ff', '#a00026ff', '#9f0026ff', '#9e0026ff', '#9d0026ff', '#9c0026ff', '#9b0026ff', '#9b0026ff', '#9a0026ff', '#990026ff', '#980026ff', '#970026ff', '#960026ff', '#950026ff', '#940026ff', '#930026ff', '#920026ff', '#910026ff', '#900026ff', '#8f0026ff', '#8e0026ff', '#8d0026ff', '#8c0026ff', '#8b0026ff', '#8a0026ff', '#890026ff', '#880026ff', '#870026ff', '#860026ff', '#850026ff', '#840026ff', '#830026ff', '#820026ff', '#810026ff', '#800026ff']);
+    
+
+    color_map_40f4767c07fb95c5dfa1551e3574d559.x = d3.scale.linear()
+              .domain([8.99, 15.99])
+              .range([0, 450 - 50]);
+
+    color_map_40f4767c07fb95c5dfa1551e3574d559.legend = L.control({position: 'topright'});
+    color_map_40f4767c07fb95c5dfa1551e3574d559.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_40f4767c07fb95c5dfa1551e3574d559.legend.addTo(map_4aa454ea3f02c7c8aa2aa75a1677dd8f);
+
+    color_map_40f4767c07fb95c5dfa1551e3574d559.xAxis = d3.svg.axis()
+        .scale(color_map_40f4767c07fb95c5dfa1551e3574d559.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([8.99, 9.865, 10.74, 11.615, 12.49, 13.365, 14.24, 15.115, 15.99]);
+
+    color_map_40f4767c07fb95c5dfa1551e3574d559.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_40f4767c07fb95c5dfa1551e3574d559.g = color_map_40f4767c07fb95c5dfa1551e3574d559.svg.append("g")
+        .attr("class", "key")
+        .attr("fill", "black")
+        .attr("transform", "translate(25,16)");
+
+    color_map_40f4767c07fb95c5dfa1551e3574d559.g.selectAll("rect")
+        .data(color_map_40f4767c07fb95c5dfa1551e3574d559.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_40f4767c07fb95c5dfa1551e3574d559.x(color_map_40f4767c07fb95c5dfa1551e3574d559.color.domain()[i - 1]) : color_map_40f4767c07fb95c5dfa1551e3574d559.x.range()[0],
+            x1: i < color_map_40f4767c07fb95c5dfa1551e3574d559.color.domain().length ? color_map_40f4767c07fb95c5dfa1551e3574d559.x(color_map_40f4767c07fb95c5dfa1551e3574d559.color.domain()[i]) : color_map_40f4767c07fb95c5dfa1551e3574d559.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 40 - 30)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_40f4767c07fb95c5dfa1551e3574d559.g.call(color_map_40f4767c07fb95c5dfa1551e3574d559.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .attr("fill", "black")
+        .text("Pre\u00e7o");
+</script>
+</html>

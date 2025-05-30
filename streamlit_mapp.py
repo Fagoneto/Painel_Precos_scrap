@@ -10,11 +10,15 @@ from plotly.subplots import make_subplots
 st.set_page_config(layout='wide', page_title="Painel dos Preços")
 st.title("Painel dos Preços")
 
-select_planilha = st.selectbox("Lista de Planilhas", ['precos_carrefour_kani_20250516_tratado.xlsx', 'precos_carrefour_empanado_20250516_tratado.xlsx'])
-if not select_planilha:
-    st.error("Por favor, escolha pelo menos uma planilha.")
-else:
-    df = pd.read_excel(select_planilha)
+# select_planilha = st.selectbox("Lista de Planilhas", ['precos_carrefour_kani_20250516_tratado.xlsx', 'precos_carrefour_empanado_20250516_tratado.xlsx'])
+
+
+# if not select_planilha:
+#     st.error("Por favor, escolha pelo menos uma planilha.")
+# else:
+#     df = pd.read_excel('precos_carrefour_kani_20250516_tratado.xlsx)
+
+df = pd.read_excel('precos_carrefour_kani_20250516_tratado.xlsx')
 
 st.write("Data de coleta: ", df['data'].max())
           
@@ -43,11 +47,11 @@ else:
         popup = folium.Popup(popup_html, parse_html=False)
         circle.add_child(popup)
         
-        # Se o seletor estiver marcado, exibir o preço ao lado do círculo
-        if exibir_preco:
-            preco_popup = f"<b>R${row['preco']:.2f}</b>"
-            folium.Marker(location=[row['lat'] - 0.01, row['long']],  # Ajuste na posição vertical
-                        icon=folium.DivIcon(html=f"<div style='font-size: 12pt;'>{preco_popup}</div>")).add_to(mapa)  # Ajuste no tamanho da fonte
+        # # Se o seletor estiver marcado, exibir o preço ao lado do círculo
+        # if exibir_preco:
+        #     preco_popup = f"<b>R${row['preco']:.2f}</b>"
+        #     folium.Marker(location=[row['lat'] - 0.01, row['long']],  # Ajuste na posição vertical
+        #                 icon=folium.DivIcon(html=f"<div style='font-size: 12pt;'>{preco_popup}</div>")).add_to(mapa)  # Ajuste no tamanho da fonte
         
         circle.add_to(mapa)
 

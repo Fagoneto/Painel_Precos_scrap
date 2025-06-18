@@ -10,18 +10,33 @@ from plotly.subplots import make_subplots
 st.set_page_config(layout='wide', page_title="Painel dos Preços")
 st.title("Painel dos Preços")
 
-# select_planilha = st.selectbox("Lista de Planilhas", ['precos_carrefour_kani_20250516_tratado.xlsx', 'precos_carrefour_empanado_20250516_tratado.xlsx'])
+# df = st.selectbox("Lista de Planilhas", ['precos_carrefour_kani_20250516_tratado.xlsx', 'precos_carrefour_empanado_20250516_tratado.xlsx'])
 
 
-# if not select_planilha:
+# if not df:
 #     st.error("Por favor, escolha pelo menos uma planilha.")
 # else:
 #     df = pd.read_excel('precos_carrefour_kani_20250516_tratado.xlsx)
 
-df = pd.read_excel('precos_carrefour_kani_20250516_tratado.xlsx')
+df = pd.read_csv('precos_carrefour_cerveja_20250617.csv')
+
+# Remover linhas duplicadas (com base em todas as colunas)
+df = df.drop_duplicates()
 
 st.write("Data de coleta: ", df['data'].max())
-          
+
+# if not df:
+#     st.error("Por favor, escolha pelo menos uma planilha.")
+# else:
+#     #df = pd.read_csv(df)
+
+df['lat'] = df['lat'].astype(str).str.replace(',', '.').astype(float)
+df['long'] = df['long'].astype(str).str.replace(',', '.').astype(float)
+
+# Remover linhas com qualquer NaN
+df = df.dropna()
+
+
 produto_1 = st.selectbox(
         "Escolha quantos produtos quiser", (list(df['produto'].unique())))#, [df['produto'][0]])#, [## colocar aqui os primeiros itens da lista]
 if not produto_1:

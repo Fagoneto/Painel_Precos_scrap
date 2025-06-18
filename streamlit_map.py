@@ -15,90 +15,21 @@ st.write('Boa Noite, Clarice')
 
            
 st.write("Escolha uma planilha: ")
-select_planilha = st.selectbox("Lista de Planilhas", ['precos_carrefour_kani_20250516_tratado.xlsx', 'precos_carrefour_empanado_20250516_tratado.xlsx'])
+#select_planilha = st.selectbox("Lista de Planilhas", ['precos_carrefour_kani_20250516_tratado.xlsx', 'precos_carrefour_empanado_20250516_tratado.xlsx'])
+select_planilha = "precos_carrefour_salmao_20250616.csv"
+
 if not select_planilha:
     st.error("Por favor, escolha pelo menos uma planilha.")
 else:
-    df = pd.read_excel(select_planilha)
-             
+    df = pd.read_csv(select_planilha)
+
+    df['lat'] = df['lat'].astype(str).str.replace(',', '.').astype(float)
+    df['long'] = df['long'].astype(str).str.replace(',', '.').astype(float)
+          
 #df = pd.read_excel('precos_carrefour_kani_20250516_tratado.xlsx')
 
 #st.write(list(df['produto'].unique()))
 st.write("Data de coleta: ", df['data'].max())
-
-
-
-
-# # Mapeamento de estados para regiões
-# uf_to_region = {
-#     'AC': 'Norte', 'AP': 'Norte', 'AM': 'Norte', 'PA': 'Norte', 'RO': 'Norte', 'RR': 'Norte', 'TO': 'Norte',
-#     'AL': 'Nordeste', 'BA': 'Nordeste', 'CE': 'Nordeste', 'MA': 'Nordeste', 'PB': 'Nordeste', 'PE': 'Nordeste',
-#     'PI': 'Nordeste', 'RN': 'Nordeste', 'SE': 'Nordeste',
-#     'DF': 'Centro-Oeste', 'GO': 'Centro-Oeste', 'MT': 'Centro-Oeste', 'MS': 'Centro-Oeste',
-#     'ES': 'Sudeste', 'MG': 'Sudeste', 'RJ': 'Sudeste', 'SP': 'Sudeste',
-#     'PR': 'Sul', 'RS': 'Sul', 'SC': 'Sul'
-# }
-
-# # Criar a nova coluna com base no mapeamento
-# df['regiao'] = df['uf'].map(uf_to_region)
-
-# df['data'] = pd.to_datetime(df['data'], format='%d/%m/%Y')
-
-# df = df[['produto', 'preco', 'cidade', 'uf', 'regiao', 'loja', 'lat', 'long', 'desconto']]
-
-
-
-#### ATENÇÃO TEMLOJAS QUE FALTA GEOLOCALIZACAO
-#excluir dados NaN
-#df = df.dropna()
-
-
-# #data_load_state = st.text('Loading data...')
-# st.write("Data de coleta: ")
-# st.write (df['data'].max())
-# Create a text element and let the reader know the data is loading.
-
-
-# def to_excel(dados):
-#     saida  = BytesIO()
-#     writer = pd.ExcelWriter(saida, engine='xlsxwriter')
-#     dados.to_excel(writer, index=False, sheet_name='Sheet1')
-#     worksheet = writer.sheets['Sheet1']
-#     worksheet.set_column('A:A', None)  
-#     writer.save()
-#     dados_excel = saida.getvalue()
-#     return dados_excel
-
-# #st.write(precos_carrefour_prod.head(5))
-
-
-# # Criando DataFrame por Produto
-# ### Encontrando os produtos que ocorrem com mais frequencia
-# occur = df.groupby(['produto']).count()
-# c = occur.sort_values(by=['data'], ascending=False).reset_index()
-# c = c[['produto', 'preco', 'estado']]
-# c = c.rename(columns={'preco': 'Frequência'})
-
-# # Criando DataFrame por Cidade
-# ### Encontrando os produtos que ocorrem com mais frequencia
-# occur2 = df.groupby(['cidade/UF']).count().reset_index()
-# d = occur2.sort_values(by=['data'], ascending=False)
-# d = d[['cidade/UF', 'data', 'estado']]
-# d = d.rename(columns={'data': 'Frequência'})
-
-
-# if st.checkbox('Deseja ver a tabela de frequência de produtos e das cidades coletadas?'):
-#     col1, col2 = st.columns(2)
-
-#     with col1:
-#         num_pro = str(len(df.produto.unique()))
-#         st.write("Número de produtos disponíveis: "+ num_pro, c)
-
-
-#     with col2:
-#         num_cidades = str(len(df['cidade/UF'].unique()))
-#         st.write("Número de cidades coletadas: "+ num_cidades, d)
-    
 
 
 col1, col2 = st.columns(2)

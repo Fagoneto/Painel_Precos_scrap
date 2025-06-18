@@ -1,0 +1,125 @@
+cidade_uf;loja;endereco;lat;long
+Maceió/AL;Hiper Maceió Jatiúca;Avenida Comendador Gustavo Paiva - Mangabeiras, Maceió - AL;-9,64959;-35,71739
+Manaus/AM;Hiper Manaus Manpar;Avenida Djalma Batista - Flores, Manaus - AM;-3,0761;-60,02313
+Manaus/AM;Hiper Manaus Ponta Negra;Avenida Pedro Teixeira, 52 - Dom Pedro, Manaus - AM;-3,09195;-60,0498
+Manaus/AM;Hiper Manaus Adrianópolis;Avenida Jornalista Humberto Calderaro - Adrianópolis, Manaus - AM;-3,10513;-60,01123
+Manaus/AM;Hiper Manaus Shopping;Avenida Djalma Batista - Chapada, Manaus - AM;-3,09326;-60,02191
+Itabuna/BA;Hiper Itabuna;Avenida Aziz Maron - GOES CALMON, Itabuna - BA;-14,7979;-39,27272
+Brasília/DF;Hiper Brasília Sul;SCEE / Sul - Guará, Brasília - DF;-15,82938;-47,95478
+Brasília/DF;Hiper Águas Claras;Rua Copaíba - Águas Claras, Brasília - DF;-15,83163;-48,03967
+Brasília/DF;Bairro Asa Norte Ii;SEP/NORTE EQ - Asa Norte, Brasília - DF;-15,77441;-47,88754
+Brasília/DF;Bairro Bom Motivo;SHIS QI - Lago Sul, Brasília - DF;-15,84242;-47,87619
+Brasília/DF;Hiper Asa Norte;ST Setor Terminal Norte - Asa Norte, Brasília - DF;-15,72217;-47,89789
+Vila Velha/ES;Hiper Vila Velha;Avenida Luciano das Neves - Divino Espírito Santo, Vila Velha - ES;-20,34885;-40,29805
+Goiânia/GO;Hiper Goiânia Sul;Avenida Jamel Cecílio - Jardim Goiás, Goiânia - GO;-16,70961;-49,23282
+Goiânia/GO;Hiper Avenida T9;Avenida T 9 - Vila Bela, Goiânia - GO;-16,70884;-49,29722
+Goiânia/GO;Hiper Anápolis;Avenida Brasil - Cidade Anápolis, Goiânia - GO;-16,32138;-48,94862
+Belo Horizonte/MG;Hiper Contagem;Rodovia BR-381 - Riacho das Pedras, Belo Horizonte - MG;-19,9548;-44,06368
+Belo Horizonte/MG;Hiper BH Shopping;Rodovia BR-356 - Belvedere, Belo Horizonte - MG;-19,9735;-43,94444
+Belo Horizonte/MG;Hiper Pampulha;Avenida Presidente Carlos Luz - Engenheiro Nogueira, Belo Horizonte - MG;-19,87385;-43,97805
+Belo Horizonte/MG;Hiper BH América;Avenida das Andradas - Santa Efigênia, Belo Horizonte - MG;-19,91368;-43,92017
+Juiz de Fora/MG;Hiper Juiz de Fora;Avenida Barão do Rio Branco - Graminha, Juiz de Fora - MG;-21,78397;-43,33813
+Uberlândia/MG;Hiper Uberlândia;Av Joao Naves de Ávila - Santa Mônica, Uberlândia - MG;-21,78397;-43,33813
+Campo Grande/MS;Hiper Campo Grande;Avenida Afonso Pena - Santa Fé, Campo Grande - MS;-20,45765;-54,58963
+Campina Grande/PB;Hiper Campina Grande;AV PROFESSOR ALMEIDA BARRETO - S JOSE, Campina Grande - PB;-7,22202;-35,88584
+João Pessoa/PB;Hiper João Pessoa;Rua Bacharel Irenaldo de Albuquerque Chaves - Bessa, João Pessoa - PB;-7,08567;-34,84642
+João Pessoa/PB;Hiper João Pessoa Bancários;Rua Empresário João Rodrigues Alves - Jardim São Paulo, João Pessoa - PB;-7,14594;-34,84909
+Jaboatão dos Guararapes/PE;Hiper Shopping Guararapes;AV BARRETO DE MENEZES - PIEDADE, Jaboatão dos Guararapes - PE;-8,14956;-34,91658
+Petrolina/PE;Hiper Shopping Petrolina;AV MONSENHOR ÂNGELO SAMPAIO - CENTRO, Petrolina - PE;-9,38299;-40,4901
+Recife/PE;Hiper Avenida Recife;AV CAPITÃO GREGÓRIO DE CALDAS - AREIAS, Recife - PE;-8,09688;-34,9286
+Recife/PE;Hiper Shopping Tacaruna;AV GOVERNADOR AGAMENON MAGALHÃES - SANTO AMARO, Recife - PE;-8,0373;-34,87205
+Recife/PE;Hiper Recife Torre;Rua José Bonifácio - Torre, Recife - PE;-8,03921;-34,90987
+Recife/PE;Hiper Recife Domingos Ferreira;Rua Francisco da Cunha - Boa Viagem, Recife - PE;-8,09017;-34,90133
+Curitiba/PR;Hiper Pinhais;Rodovia Joao Leopoldo Jacomel - Vila Amélia, Curitiba - PR;-25,43483;-49,16438
+Curitiba/PR;Hiper Champagnat;Rua Deputado Heitor Alencar Furtado - Mossunguê, Curitiba - PR;-25,43712;-49,31851
+Curitiba/PR;Hiper Parolim;Avenida Marechal Floriano Peixoto - Rebouças, Curitiba - PR;-25,45489;-49,25878
+Curitiba/PR;Hiper Portão;Avenida Presidente Arthur Bernardes - Portao, Curitiba - PR;-25,4634;-49,29712
+Curitiba/PR;Hiper Cabral;Avenida Paraná - Cabral, Curitiba - PR;-25,40208;-49,24868
+Londrina/PR;Hiper Londrina;Rodovia Celso Garcia Cid - Gleba Palhano, Londrina - PR;-23,34027;-51,18651
+Campos dos Goytacazes/RJ;Hiper Campos de Goytacazes;Avenida Nilo Peçanha - Queimados, Campos dos Goytacazes - RJ;-21,76534;-41,34352
+Duque de Caxias/RJ;Hiper Duque de Caxias;Av Washington Luiz - Vila São Luis, Duque de Caxias - RJ;-22,76279;-43,28813
+Duque de Caxias/RJ;Hiper Duque de Caxias Brigadeiro;Avenida Brigadeiro Lima e Silva - Jardim 25 de Agosto, Duque de Caxias - RJ;-22,79203;-43,30081
+Rio de Janeiro/RJ;Hiper Rio Barra;Avenida das Américas - Barra da Tijuca, Rio de Janeiro - RJ;-22,98773;-43,36071
+Rio de Janeiro/RJ;Hiper Norte Shopping;Avenida Dom Helder Câmara - Cachambi, Rio de Janeiro - RJ;-22,88484;-43,28464
+Rio de Janeiro/RJ;Hiper Sulacap;Avenida Marechal Fontelli - Jardim Sulacap, Rio de Janeiro - RJ;-22,88461;-43,40483
+Rio de Janeiro/RJ;Hiper Campo Grande;Estrada das Capoeiras - Campo Grande, Rio de Janeiro - RJ;-20,44122;-54,58326
+Rio de Janeiro/RJ;Hiper Alcântara;Rua Doutor Alfredo Backer - Alcântara, Rio de Janeiro - RJ;-22,81845;-43,0076
+Mossoró/RN;Hiper Mossoró;R DIOCESANA - DOZE ANOS, Mossoró - RN;-5,1844;-37,35065
+Natal/RN;Hiper Natal;BR 101 - Lagoa Nova, Natal - RN;-5,82609;-35,21258
+Natal/RN;Hiper Natal Zona Norte;Avenida Doutor João Medeiros Filho - Potengi, Natal - RN;-5,75829;-35,24792
+Gravataí/RS;Hiper Gravataí;Avenida Dorival Cândido Luz de Oliveira - Centro, Gravataí - RS;-29,9361;-50,99679
+Pelotas/RS;Hiper Pelotas;Avenida Presidente Juscelino Kubtscheck De Oliveira - AREAL, Pelotas - RS;-31,76344;-52,32847
+Porto Alegre/RS;Hiper Partenon;Rua Albion - Partenon, Porto Alegre - RS;-30,05709;-51,16583
+Porto Alegre/RS;Hiper Canoas;Rua Mathias Velho - Mathias Velho, Porto Alegre - RS;-29,90760;-51,18603
+Porto Alegre/RS;Hiper Passo d Areia;Avenida Plínio Brasil Milano - Passo d Areia, Porto Alegre - RS;-30,01094;-51,17132
+Porto Alegre/RS;Hiper Cristal;Avenida Diario De Noticias - CRISTAL, Porto Alegre - RS;-30,08171;-51,24535
+Porto Alegre/RS;Hiper Santa Maria;Avenida Rio Branco - Centro, Porto Alegre - RS;-29,68355;-53,80696
+Porto Alegre/ Caxias do Sul/RS;Hiper Caxias;Rodovia RS-122 (Machado de Assis até N. S. Aparecida) - Distrito Industrial, Porto Alegre/ Caxias do Sul - RS;-29,17665;-51,21822
+Santa Maria/RS;Hiper Santa Maria;Avenida Fernando Ferrari - N S DE LOURDES, Santa Maria - RS;-29,67947;-53,80657
+Viamão/RS;Hiper Viamão;Avenida Senador Salgado Filho - SANTA CECILIA, Viamão - RS;-30,07905;-51,10104
+Balneário Camboriú/SC;Hiper Balneário Camboriu;Avenida Brasil - Centro, Balneário Camboriú - SC;-27,00295;-48,62218
+Florianópolis/SC;Hiper Florianópolis Shopping;Avenida Madre Benvenuta - SANTA MONICA, Florianópolis - SC;-27,58926;-48,51513
+Barueri/SP;Hiper Tamboré;Avenida Piracema - Tamboré, Barueri - SP;-23,50315;-46,83511
+Barueri/SP;Hiper Barueri Tamboré;Alameda Araguaia - Tamboré, Barueri - SP;-23,50283;-46,83558
+Campinas/SP;Hiper Campinas;Rodovia Dom Pedro I - Jardim Nilópolis, Campinas - SP;-22,89385;-47,0582
+Campinas/SP;Hiper Dom Pedro II;Avenida Guilherme Campos - Jd. Santa Genebra, Campinas - SP;-22,84984;-47,06217
+Campinas/SP;Hiper Valinhos;Avenida Engenheiro Antônio Francisco Paula de Souza - Jardim Von Zuben, Campinas - SP;-22,95214;-47,01448
+Campinas/SP;Hiper Iguatemi;Avenida Projetada - Vila Brandina, Campinas - SP;-22,89096;-47,02308
+Campinas/SP;Hiper Campinas Outlet;Rua Jacy Teixeira Camargo - Jardim do Lago, Campinas - SP;-22,93184;-47,07917
+Guarujá/SP;Hiper Guarujá;Avenida Dom Pedro I - Jardim Bel Mar, Guarujá - SP;-23,98031;-46,23148
+Guarulhos/SP;Hiper Guarulhos;Avenida Benjamin Harris Hunnicutt - Vila Rio de Janeiro, Guarulhos - SP;-23,43934;-46,54139
+Guarulhos/SP;Hiper Guarulhos;Avenida Paulo Faccini - Macedo, Guarulhos - SP;-23,46433;-46,52079
+Indaiatuba/SP;Hiper Guarulhos;Avenida Benjamin Harris Hunnicutt - Vila Rio de Janeiro, Guarulhos - SP;-23,43856;-46,54142
+Indaiatuba/SP;Bairro Indaiatuba;Avenida Presidente Kennedy - Cidade Nova, Indaiatuba - SP;-23,08029;-47,21039
+Itu/SP;Bairro Itu;Avenida Dr. Otaviano Pereira Mendes - Jd. Corazza, Itu - SP;-23,25224;-47,2995
+Jundiaí/SP;Hiper Jundiaí;Avenida Professora Maria do Carmo Guimarães Pellegrini - Moisés, Jundiaí - SP;-23,18283;-46,90793
+Osasco/SP;Hiper Osasco;Avenida dos Autonomistas - Vila Yara, Osasco - SP;-23,53699;-46,76844
+Osasco/SP;Hiper Osasco;Avenida Dos Autonomistas - CENTRO, Osasco - SP;-23,53743;-46,76869
+Piracicaba/SP;Hiper Osasco;Avenida dos Autonomistas - Vila Yara, Osasco - SP;-23,53675;-46,76887
+Piracicaba/SP;Hiper Nova Piracicaba;Avenida Ruy Teixeira Mendes - Glebas Califórnia, Piracicaba - SP;-22,66823;-47,66848
+Praia Grande/SP;Bairro Praia Grande;Avenida Castelo Branco - Vila Guilhermina, Praia Grande - SP;-24,01306;-46,41808
+Presidente Prudente/SP;Hiper Prudente;Avenida Manoel Goulart - Jardim das Rosas, Presidente Prudente - SP;-22,10957;-51,40939
+Ribeirão Preto/SP;Hiper Ribeirão Shopping;Avenida Coronel Fernando Ferreira Leite - Jardim California, Ribeirão Preto - SP;-21,20951;-47,81675
+Ribeirão Preto/SP;Hiper Ribeirão Preto Via Norte;Rua Municipal - Ipiranga, Ribeirão Preto - SP;-21,16069;-47,81497
+Ribeirão Preto/SP;Bairro Ribeirão Preto;Rua Rui Barbosa - Centro, Ribeirão Preto - SP;-21,18241;-47,81018
+Salto/SP;Bairro Salto;Rua Campos Sales - Vila Nova, Salto - SP;-23,20035;-47,2893
+Santana de Parnaíba/SP;Bairro Alphaville;Avenida Dr. Yojiro Takaoka - Tamboré, Santana de Parnaíba - SP;-23,46916;-46,87131
+Santo André/SP;Hiper Santo André;Avenida Pedro Américo - Vila Humaitá, Santo André - SP;-23,65878;-46,50996
+Santo André/SP;Hiper Santo André Oratório;Rua Oratório - Jardim do Carmo, Santo André - SP;-23,64591;-46,5267
+Santo André/SP;Hiper Santo Andre Shopping;Rua Pereira Barreto - Jardim Paraíso, Santo André - SP;-23,66611;-46,53391
+Santos/SP;Hiper São Vicente;Avenida Prefeito José Monteiro - Jardim Independência, Santos - SP;-23,96678;-46,36886
+Santos/SP;Hiper Santos;Av. Conselheiro Nébias - Boqueirão, Santos - SP;-23,96835;-46,32446
+Santos/SP;Hiper Praiamar Shopping;Rua Alexandre Martins - Aparecida, Santos - SP;-23,97825;-46,30831
+São Bernardo do Campo/SP;Hiper Senador Vergueiro;Avenida Senador Vergueiro - Jardim Três Marias, São Bernardo do Campo - SP;-23,67676;-46,55442
+São Bernardo do Campo/SP;Bairro São Bernardo;Rua José Benedetti - Centro, São Bernardo do Campo - SP;-23,71193;-46,54239
+São Bernardo do Campo/SP;Hiper Demarchi;Avenida Maria Servidei Demarchi - Demarchi, São Bernardo do Campo - SP;-23,72486;-46,55198
+São Bernardo do Campo/SP;Hiper São Bernardo do Campo Pauliceia;Avenida do Taboão - Taboão, São Bernardo do Campo - SP;-23,65545;-46,59521
+São Caetano do Sul/SP;Hiper São Caetano do Sul;Rua Aquidaban - Fundação, São Caetano do Sul - SP;-23,6087;-46,56537
+São José do Rio Preto/SP;Hiper São José do Rio Preto;Avenida Tancredo Neves - Cristo Rei, São José do Rio Preto - SP;-20,832;-49,35565
+São José do Rio Preto/SP;Hiper São Jose do Rio Preto Shopping;Avenida Brigadeiro Faria Lima - Jardim Fernandes, São José do Rio Preto - SP;-20,83233;-49,39859
+São José dos Campos/SP;Hiper São José dos Campos;Avenida Deputado Benedito Matarazzo - Jardim Serimbura, São José dos Campos - SP;-23,22279;-45,90544
+São Paulo/SP;Hiper Pinheiros;Avenida das Nações Unidas - Vila Gomes, São Paulo - SP;-23,62417;-46,71079
+São Paulo/SP;Hiper Vila Maria;Avenida Morvan Dias de Figueiredo - Vila Guilherme, São Paulo - SP;-23,52132;-46,59881
+São Paulo/SP;Hiper Washington Luis;Avenida Washington Luiz - Santo Amaro, São Paulo - SP;-23,65453;-46,69306
+São Paulo/SP;Hiper Anchieta;Via Anchieta - Saúde, São Paulo - SP;-23,63121;-46,59949
+São Paulo/SP;Hiper Raposo Tavares;Rodovia Raposo Tavares - Jardim Cambará, São Paulo - SP;-23,58519;-46,77881
+São Paulo/SP;Hiper Aricanduva;Avenida Rio das Pedras - Jardim Aricanduva, São Paulo - SP;-23,55948;-46,51634
+São Paulo/SP;Hiper Shopping Interlagos;Avenida Interlagos - Jardim Consórcio, São Paulo - SP;-23,67753;-46,67525
+São Paulo/SP;Hiper Imigrantes;Rua Ribeiro Lacerda - Bosque da Saúde, São Paulo - SP;-23,61791;-46,62598
+São Paulo/SP;Hiper Butantã;Avenida Professor Francisco Morato - Caxingui, São Paulo - SP;-23,56627;-46,69598
+São Paulo/SP;Hiper Anália Franco;Avenida Regente Feijó - Vila Regente Feijó, São Paulo - SP;-23,56034;-46,56021
+São Paulo/SP;Hiper Limão;Avenida Otaviano Alves de Lima - Limão, São Paulo - SP;-23,51228;-46,67499
+São Paulo/SP;Hiper Giovani Gronchi;Avenida Alberto Augusto Alves - Vila Andrade, São Paulo - SP;-23,64206;-46,73486
+São Paulo/SP;Hiper Pêssego;Estrada do Pêssego - José Bonifácio, São Paulo - SP;-23,56900;-46,44564
+São Paulo/SP;Hiper Pamplona;Rua Pamplona - Jardim Paulista, São Paulo - SP;-23,5701;-46,66136
+São Paulo/SP;Hiper Shopping Eldorado;Avenida Rebouças - Pinheiros, São Paulo - SP;-23,57235;-46,69569
+São Paulo/SP;Hiper Taboão da Serra;Rodovia Régis Bittencourt - Jardim São Miguel, São Paulo - SP;-23,61201;-46,77617
+São Paulo/SP;Hiper Cambuci;Praça Alberto Lion - Cambuci, São Paulo - SP;-23,56341;-46,61385
+São Paulo/SP;Bairro Morumbi;Avenida Guilherme Dumont Vilares - Morumbi, São Paulo - SP;-23,61172;-46,74075
+São Paulo/SP;Hiper Casa Verde;Rua Marambaia - Casa Verde, São Paulo - SP;-23,51323;-46,6549
+São Paulo/SP;Hiper Brooklin;Avenida Santo Amaro - Brooklin, São Paulo - SP;-23,62568;-46,68658
+Sorocaba/SP;Hiper Esplanada;Avenida Giseli Costantino - Parque Bela Vista, Sorocaba - SP;-23,53345;-47,46474
+Sorocaba/SP;Hiper Sorocaba Norte;Avenida Brasil - Terra Vermelha, Sorocaba - SP;-23,48623;-47,47117
+Taubaté/SP;Bairro Taubaté;Avenida Marechal Deodoro - Centro, Taubaté - SP;-23,01494;-45,55142
+Taubaté/SP;Hiper Taubaté Charles;Avenida Charles Schnneider - Barranco, Taubaté - SP;-23,02246;-45,57783
+Vinhedo/SP;Bairro Vinhedo;Estrada da Boiada - Jardim Casa Verde, Vinhedo - SP;-23,03057;-46,98705

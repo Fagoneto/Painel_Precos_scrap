@@ -13,24 +13,42 @@ st.title("Painel dos Preços")
 
 st.write('Boa Noite, Clarice')
 
-           
-st.write("Escolha uma planilha: ")
-#select_planilha = st.selectbox("Lista de Planilhas", ['precos_carrefour_kani_20250516_tratado.xlsx', 'precos_carrefour_empanado_20250516_tratado.xlsx'])
-select_planilha = "precos_carrefour_salmao_20250616.csv"
 
-if not select_planilha:
-    st.error("Por favor, escolha pelo menos uma planilha.")
+st.write("Escolha uma planilha:")
+
+# Opções simplificadas
+select_planilha = st.selectbox("Lista de Planilhas", ['cerveja', 'cachaca'])
+
+# Carregamento condicional
+if select_planilha == 'cerveja':
+    df = pd.read_csv('precos_carrefour_cerveja_20250617.csv')
 else:
-    df = pd.read_csv(select_planilha)
+    df = pd.read_csv('precos_carrefour_cachaca_20250617.csv')
 
-    df['lat'] = df['lat'].astype(str).str.replace(',', '.').astype(float)
-    df['long'] = df['long'].astype(str).str.replace(',', '.').astype(float)
+           
+# st.write("Escolha uma planilha: ")
+# select_planilha = st.selectbox("Lista de Planilhas", ['precos_carrefour_cerveja_20250617.csv', 'precos_carrefour_cachaca_20250617.csv'])
+# #select_planilha = "precos_carrefour_salmao_20250616.csv"
+
+# if not select_planilha:
+#     st.error("Por favor, escolha pelo menos uma planilha.")
+# else:
+#     df = pd.read_csv(select_planilha)
+
+    # # Remover linhas duplicadas (com base em todas as colunas)
+    # df = df.drop_duplicates()
+
+    # df['lat'] = df['lat'].astype(str).str.replace(',', '.').astype(float)
+    # df['long'] = df['long'].astype(str).str.replace(',', '.').astype(float)
+
+    # # Remover linhas com qualquer NaN
+    # df = df.dropna()
           
 #df = pd.read_excel('precos_carrefour_kani_20250516_tratado.xlsx')
 
 #st.write(list(df['produto'].unique()))
 st.write("Data de coleta: ", df['data'].max())
-
+#st.write(df)
 
 col1, col2 = st.columns(2)
 

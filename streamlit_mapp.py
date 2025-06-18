@@ -12,29 +12,22 @@ st.title("Painel dos Preços")
 
 # df = st.selectbox("Lista de Planilhas", ['precos_carrefour_kani_20250516_tratado.xlsx', 'precos_carrefour_empanado_20250516_tratado.xlsx'])
 
+st.write("Escolha uma planilha:")
+
+# Opções simplificadas
+select_planilha = st.selectbox("Lista de Planilhas", ['cerveja', 'cachaca'])
+
+# Carregamento condicional
+if select_planilha == 'cerveja':
+    df = pd.read_csv('precos_carrefour_cerveja_20250617.csv')
+else:
+    df = pd.read_csv('precos_carrefour_cachaca_20250617.csv')
 
 # if not df:
 #     st.error("Por favor, escolha pelo menos uma planilha.")
 # else:
 #     df = pd.read_excel('precos_carrefour_kani_20250516_tratado.xlsx)
 
-df = pd.read_csv('precos_carrefour_cerveja_20250617.csv')
-
-# Remover linhas duplicadas (com base em todas as colunas)
-df = df.drop_duplicates()
-
-st.write("Data de coleta: ", df['data'].max())
-
-# if not df:
-#     st.error("Por favor, escolha pelo menos uma planilha.")
-# else:
-#     #df = pd.read_csv(df)
-
-df['lat'] = df['lat'].astype(str).str.replace(',', '.').astype(float)
-df['long'] = df['long'].astype(str).str.replace(',', '.').astype(float)
-
-# Remover linhas com qualquer NaN
-df = df.dropna()
 
 
 produto_1 = st.selectbox(
@@ -79,3 +72,19 @@ else:
     st.components.v1.html(open("mapa.html", "r").read(), height=600)
 
 
+
+st.markdown(" Escolha uma cidade e uma loja para ver os preços dos produtos disponíveis:")
+
+# Seleção por cidade
+select_cidade = st.selectbox("Lista de Cidades", df.cidade.unique().tolist())
+df_cidade = df[df['cidade'] == select_cidade]
+
+# Seleção por loja
+select_loja = st.selectbox("Lista de Lojas", df_cidade.loja.unique().tolist())
+df_loja = df_cidade[df_cidade['loja'] == select_loja]
+
+# Ordenar por preço crescente (opcional)
+df_loja_sorted = df_loja[['produto', 'preco']].sort_values(by='preco', ascending=False)
+
+# Exibir em formato de tabela interativa
+st.dataframe(df_loja_sorted, use_container_width=True)

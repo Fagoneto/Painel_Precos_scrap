@@ -23,7 +23,7 @@ select_planilha = st.selectbox("Lista de Planilhas", ['cerveja', 'cachaca'])
 if select_planilha == 'cerveja':
     df = pd.read_csv('precos_carrefour_cerveja_20250617.csv')
 else:
-    df = pd.read_csv('precos_carrefour_cachaca_20250617.csv')
+    df = pd.read_csv('precos_carrefour_salmao_20250624_loc.csv')
 
            
 # st.write("Escolha uma planilha: ")
@@ -38,8 +38,8 @@ else:
     # # Remover linhas duplicadas (com base em todas as colunas)
     # df = df.drop_duplicates()
 
-    # df['lat'] = df['lat'].astype(str).str.replace(',', '.').astype(float)
-    # df['long'] = df['long'].astype(str).str.replace(',', '.').astype(float)
+    df['lat'] = df['lat'].astype(str).str.replace(',', '.').astype(float)
+    df['long'] = df['long'].astype(str).str.replace(',', '.').astype(float)
 
     # # Remover linhas com qualquer NaN
     # df = df.dropna()

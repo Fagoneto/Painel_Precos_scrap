@@ -155,23 +155,7 @@ st.plotly_chart(fig2, use_container_width = True,height=400)
 
 
 
-# st.markdown(
-#         """
-#         Seleção por cidade
 
-#         **👈 
-#     """
-#     )
-
-
-# st.write("Selecione uma cidade: ")
-# select_city = st.selectbox("Lista de Cidades", df['cidade/UF'].unique())
-# if not select_city:
-#     st.error("Por favor, escolha pelo menos uma cidade.")
-# else:
-#     precos_carrefour_city = df[df['cidade/UF'].isin([select_city])]
-#     precos_carrefour_city = precos_carrefour_city.sort_values(by=['preco'], ascending=False).reset_index()
-#     st.write("Tabela de Preços de: ",precos_carrefour_city[['produto', 'preco', 'desconto', 'loja']])
 
     
 # #down10 = to_excel(precos_carrefour_city)
@@ -204,3 +188,23 @@ for regiao in regioes:
     )
     fig.update_xaxes(tickangle=45)
     st.plotly_chart(fig, use_container_width=True)
+
+
+
+st.markdown(
+        """
+        Seleção por cidade
+
+        **👈 
+    """
+    )
+
+
+st.write("Selecione uma cidade: ")
+select_city = st.selectbox("Lista de Cidades", df['cidade'].unique())
+if not select_city:
+    st.error("Por favor, escolha pelo menos uma cidade.")
+else:
+    precos_carrefour_city = df[df['cidade'].isin([select_city])]
+    precos_carrefour_city = precos_carrefour_city.sort_values(by=['preco'], ascending=False).reset_index()
+    st.write("Tabela de Preços de: ",precos_carrefour_city[['produto', 'preco', 'desconto', 'loja']])

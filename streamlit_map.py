@@ -225,6 +225,19 @@ select_city = st.selectbox("Lista de Cidades", df['cidade'].unique())
 if not select_city:
     st.error("Por favor, escolha pelo menos uma cidade.")
 else:
-    precos_carrefour_city = df[df['cidade'].isin([select_city])]
-    precos_carrefour_city = precos_carrefour_city.sort_values(by=['preco'], ascending=False).reset_index()
-    st.write("Tabela de Preços de: ",precos_carrefour_city[['produto', 'preco', 'desconto', 'loja']])
+    # precos_carrefour_city = df[df['cidade'].isin([select_city])]
+    # precos_carrefour_city = precos_carrefour_city.sort_values(by=['preco'], ascending=False).reset_index()
+    # st.write("Tabela de Preços de: ",precos_carrefour_city[['produto', 'preco', 'desconto', 'loja']])
+
+    # Filtrar pela cidade selecionada
+    precos_carrefour_city = df[df['cidade'] == select_city]
+
+    # Calcular a mediana do preço por produto na cidade
+    mediana_preco_por_produto = precos_carrefour_city.groupby('produto')['preco'].median().reset_index()
+
+    # Ordenar do maior para o menor preço
+    mediana_preco_por_produto = mediana_preco_por_produto.sort_values(by='preco', ascending=False).reset_index(drop=True)
+
+    # Exibir no Streamlit
+    st.write(f"Mediana de Preços por Produto na cidade: {select_city}")
+    st.write(mediana_preco_por_produto)

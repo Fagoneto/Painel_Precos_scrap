@@ -51,6 +51,8 @@ with col1:
     else:
         df_1 = df[df['produto']==produto_1]
 
+        st.write(f'Preço Mediano Nacional para o produto: R$ {df_1['preco'].median()}')
+
         # Criar um seletor para escolher se deseja exibir o preço ao lado do círculo
         exibir_preco = st.checkbox("Exibir preço ao lado do círculo")
 
@@ -91,11 +93,12 @@ with col1:
 
 with col2:
     produto_2 = st.selectbox(
-            "Escolha produto seguinte:", (list(df['produto'].unique())))#, [df['produto'][0]])#, [## colocar aqui os primeiros itens da lista]
+            "Escolha produto seguinte:", (list(df['produto'].unique())), index=1)#, [df['produto'][0]])#, [## colocar aqui os primeiros itens da lista]
     if not produto_2:
         st.error("Por favor, escolha pelo menos um produto.")
     else:
         df_2 = df[df['produto']==produto_2]
+        st.write(f'Preço Mediano Nacional para o produto: R$ {df_2['preco'].median()}')
 
          # Criar um seletor para escolher se deseja exibir o preço ao lado do círculo
         exibir_preco = st.checkbox("Exibir preço ao lado do círculo.")
@@ -140,6 +143,7 @@ with col2:
         # Mesclar os DataFrames com base no nome da loja
         #df = pd.merge(df_lojas[['lat', 'long', 'loja']], df_3, on='loja')
 
+
 fig = px.scatter(df_3, x="cidade", y='preco', color='produto', title= "Registro Diário de Preços",  hover_data=df.columns.unique())
 st.plotly_chart(fig, use_container_width = True,height=800)
 
@@ -174,51 +178,29 @@ st.plotly_chart(fig2, use_container_width = True,height=400)
 # #st.download_button(label="Clique aqui para baixar a Tabela de Preços!", file_name="tabela_precos.xlsx", data = down10,  key=15)
 
 
-regioes = df['regiao'].unique()
+regioes = ['Sul', 'Sudeste', 'Nordeste', 'Centro-Oeste', 'Norte']
 
-# Iterar de 2 em 2 regiões
-for i in range(0, len(regioes), 2):
-    col1, col2 = st.columns(2)
+for regiao in regioes:
+    df_reg = df_3[df_3['regiao'] == regiao]
+    if df_reg.empty:
+        st.warning(f"Sem dados para a região: {regiao}")
+        continue
 
-    # Primeira coluna
-    with col1:
-        regiao = regioes[i]
-        df_reg = df_3[df_3['regiao'] == regiao]
-        fig = px.scatter(df_reg,
-                         x='cidade',
-                         y='preco',
-                         color='produto',
-                         title=f'Região {regiao}',
-                         labels={'preco': 'Preço (R$)', 'cidade/UF': 'Cidade/UF'},
-                         height=500)
-        fig.update_layout(
-            hovermode='closest',
-            xaxis_title='Cidade/UF',
-            yaxis_title='Preço (R$)',
-            legend_title='Produto',
-            margin=dict(l=20, r=20, b=80, t=80)
-        )
-        fig.update_xaxes(tickangle=45)
-        st.plotly_chart(fig, use_container_width=True)
-
-    # Segunda coluna, se existir
-    if i + 1 < len(regioes):
-        with col2:
-            regiao = regioes[i + 1]
-            df_reg = df_3[df_3['regiao'] == regiao]
-            fig = px.scatter(df_reg,
-                             x='cidade',
-                             y='preco',
-                             color='produto',
-                             title=f'Região {regiao}',
-                             labels={'preco': 'Preço (R$)', 'cidade/UF': 'Cidade/UF'},
-                             height=500)
-            fig.update_layout(
-                hovermode='closest',
-                xaxis_title='Cidade/UF',
-                yaxis_title='Preço (R$)',
-                legend_title='Produto',
-                margin=dict(l=20, r=20, b=80, t=80)
-            )
-            fig.update_xaxes(tickangle=45)
-            st.plotly_chart(fig, use_container_width=True)
+    fig = px.scatter(
+        df_reg,
+        x='cidade',  # ajuste conforme o nome real da coluna
+        y='preco',
+        color='produto',
+        title=f'Região {regiao}',
+        labels={'preco': 'Preço (R$)', 'cidade': 'Cidade/UF'},
+        height=500
+    )
+    fig.update_layout(
+        hovermode='closest',
+        xaxis_title='Cidade/UF',
+        yaxis_title='Preço (R$)',
+        legend_title='Produto',
+        margin=dict(l=20, r=20, b=80, t=80)
+    )
+    fig.update_xaxes(tickangle=45)
+    st.plotly_chart(fig, use_container_width=True)

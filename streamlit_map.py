@@ -51,7 +51,16 @@ with col1:
     else:
         df_1 = df[df['produto']==produto_1]
 
-        st.write(f'Preço Mediano Nacional para o produto: R$ {df_1['preco'].median()}')
+        # Contar número de ocorrências
+        num_ocorrencias = len(df_1)
+
+        # Calcular preço mediano
+        preco_mediano = df_1['preco'].median()
+
+        # Exibir resultados no Streamlit
+        st.write(f'Número de ocorrências: {num_ocorrencias}')
+        st.write(f'Preço Mediano Nacional: R$ {preco_mediano:.2f}')
+
 
         # Criar um seletor para escolher se deseja exibir o preço ao lado do círculo
         exibir_preco = st.checkbox("Exibir preço ao lado do círculo")
@@ -98,7 +107,18 @@ with col2:
         st.error("Por favor, escolha pelo menos um produto.")
     else:
         df_2 = df[df['produto']==produto_2]
-        st.write(f'Preço Mediano Nacional para o produto: R$ {df_2['preco'].median()}')
+
+
+        # Contar número de ocorrências
+        num_ocorrencias = len(df_2)
+
+        # Calcular preço mediano
+        preco_mediano = df_2['preco'].median()
+
+        # Exibir resultados no Streamlit
+        st.write(f'Número de ocorrências: {num_ocorrencias}')
+        st.write(f'Preço Mediano Nacional: R$ {preco_mediano:.2f}')
+
 
          # Criar um seletor para escolher se deseja exibir o preço ao lado do círculo
         exibir_preco = st.checkbox("Exibir preço ao lado do círculo.")
